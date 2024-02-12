@@ -72,6 +72,7 @@ body, html {
     object-fit: cover;
     max-height: 160px;
     min-height: 160px;
+    height: 160px;
 }
 
 #vignettes-container {
@@ -93,20 +94,20 @@ body, html {
     box-shadow: -2px 0 5px rgba(0,0,0,0.5);
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
-  }
+}
   
-  #details-container.open {
+#details-container.open {
     transform: translateX(0);
-  }
+}
   
-  #details-container .close-btn {
+#details-container .close-btn {
     position: absolute;
     top: 10px;
     left: 10px;
     cursor: pointer;
-  }
+}
   
-  #filters {
+#filters {
     margin-left: 149px;
     display: flex;
 }
