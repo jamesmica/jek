@@ -1,22 +1,43 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var navLinks = document.querySelectorAll('.nav-link');
-
-    navLinks.forEach(function(link) {
-        link.addEventListener('click', function(event) {
-            event.preventDefault();
-
-            // Enlever la classe 'active' des autres onglets et sections
-            document.querySelectorAll('.nav-link, .content-section').forEach(function(element) {
-                element.classList.remove('active');
-            });
-
-            // Ajouter la classe 'active' à l'onglet sélectionné et à la section correspondante
-            link.classList.add('active');
-            var targetSection = document.querySelector(link.getAttribute('href'));
-            targetSection.classList.add('active');
+    const navLinks = document.querySelectorAll('.nav-link'); // Sélectionne tous les liens de navigation
+    const mainSections = document.querySelectorAll('.main-section'); // Sélectionne toutes les sections principales
+  
+    navLinks.forEach(link => {
+      link.addEventListener('click', function(event) {
+        event.preventDefault(); // Empêche le comportement par défaut des liens
+        
+        // Retire la classe 'active' de tous les liens et sections
+        navLinks.forEach(nav => {
+          nav.classList.remove('active');
         });
+        mainSections.forEach(section => {
+          section.classList.remove('active');
+        });
+  
+        // Ajoute la classe 'active' au lien et à la section correspondante
+        this.classList.add('active');
+        const activeSection = document.querySelector(this.getAttribute('href'));
+        if (activeSection) {
+          activeSection.classList.add('active');
+        }
+      });
     });
-});
+  
+    // Optionnel : déclenche un clic sur le premier lien de navigation pour afficher la première section au chargement de la page
+    if (navLinks.length > 0) {
+      navLinks[0].click();
+    }
+  });
+
+
+  function voirDetails(button) {
+    var idBonnePratique = button.getAttribute('data-id');
+    // Redirige vers la page de détails avec l'identifiant de la bonne pratique
+    window.location.href = 'details.html?id=' + idBonnePratique;
+  }
+  
+  
+
 
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -45,7 +66,11 @@ function displayVignettes(data) {
     data.forEach(item => {
         if(item.DEP && item.INTITULE) { // S'assurer que les deux champs existent
             const vignette = document.createElement('div');
-            vignette.innerHTML = `<h3>${item.DEP}</h3><p>${item.INTITULE}</p>`;
+            vignette.innerHTML = `<div class="BP" data-id=${item.N}> <a href="details.html?id=${item.N}" class="details-link"><img src="www/img/${item.IMG}"/><span class="BP_text"><h3 class="BP_title">${item.INTITULE} - ${item.TER} (${item.ID})</h3>
+            <p class="BP_caption">${item.DESCRIPTION1}</p>
+            </span>
+            </a>
+            </div>`;
             container.appendChild(vignette);
         }
     });

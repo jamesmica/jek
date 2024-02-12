@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Dashboard avec Filtrage</title>
+    <title>Plateforme Bonnes Pratiques</title>
     <link rel="stylesheet" href="styles.css"> <!-- Assurez-vous d'avoir un fichier CSS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
@@ -16,12 +16,9 @@
             </ul>
         </nav>
         <main class="main-content">
-            <div id="accueil" class="main-section">
+            <div id="accueil" class="main-section active">
                 <!-- Contenu pour Accueil -->
-                <input type="text" id="search-input" placeholder="Filtrer par DEP...">
-                <div id="vignettes-container">
-                    <!-- Les vignettes s'afficheront ici -->
-                </div>
+               
             </div>
             <div id="thematiques" class="main-section">
                 <!-- Contenu pour Thématiques -->
@@ -29,6 +26,10 @@
             <div id="decouvrir" class="main-section">
                 
                 <!-- Contenu pour Tout découvrir -->
+                <input type="text" id="search-input" placeholder="Filtrer par DEP...">
+                <div id="vignettes-container">
+                    <!-- Les vignettes s'afficheront ici -->
+                </div>
             </div>
         </main>
     </div>

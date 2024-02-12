@@ -1,11 +1,12 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Calibri', 'Arial', 'Roboto', sans-serif;
 }
 
 .container {
     display: flex;
+    background: lightgrey;
 }
 
 .sidebar {
@@ -14,10 +15,12 @@ body, html {
     height: 100vh;
     padding-top: 20px;
     transition: width .3s ease-in-out;
+    position: fixed;
+    z-index: 3;
 }
 
 .sidebar:hover {
-    width: 240px;
+    width: 200px;
 }
 
 .nav-menu {
@@ -42,19 +45,38 @@ body, html {
     background-color: #6b8f47;
 }
 
-.main-content {
-    flex-grow: 1;
-    padding: 20px;
+/* Cacher toutes les sections par défaut */
+.main-section {
+    display: none;
+  }
+  
+  /* Afficher seulement la section active */
+  .main-section.active {
+    display: block;
+  }
+
+.BP {
+    width: 280px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid #00753B;
+    margin: 16px;
+    height: 400px;
+    background-color: white;
+    overflow: hidden;
 }
 
-.content-section {
-    display: none; /* Cacher par défaut */
+.BP img {
+    width: 280px;
+    object-fit: cover;
+    max-height: 160px;
+    min-height: 160px;
 }
 
-.content-section.active {
-    display: block; /* Montrer la section active */
-}
-
-h2 {
-    font-size: 32px;
+#vignettes-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 16px;
+        justify-content: center;
 }

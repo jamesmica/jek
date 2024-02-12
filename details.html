@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Détails de la Bonne Pratique</title>
+</head>
+<body>
+    <div id="details-container">
+        <!-- Les détails seront chargés ici -->
+        Chargement des détails...
+    </div>
+    <script>
+      // Script pour charger les détails de la bonne pratique
+      document.addEventListener('DOMContentLoaded', function() {
+        var params = new URLSearchParams(window.location.search);
+        var idBonnePratique = params.get('id');
+        
+        // Utilisez l'identifiant pour charger les détails depuis votre serveur ou base de données ici
+        // Pour l'instant, nous allons simplement afficher l'identifiant pour vérifier que cela fonctionne
+        var detailsContainer = document.getElementById('details-container');
+        if(detailsContainer && idBonnePratique) {
+          detailsContainer.innerHTML = 'Détails de la Bonne Pratique ID: ' + idBonnePratique;
+        }
+      });
+    </script>
+</body>
+</html>
