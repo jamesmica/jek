@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Plateforme Bonnes Pratiques</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Assurez-vous d'avoir un fichier CSS -->
+    <link rel="stylesheet" href="styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
 <body>
@@ -18,21 +18,35 @@
         <main class="main-content">
             <div id="accueil" class="main-section active">
                 <!-- Contenu pour Accueil -->
-               
             </div>
             <div id="thematiques" class="main-section">
                 <!-- Contenu pour Thématiques -->
             </div>
             <div id="decouvrir" class="main-section">
-                
                 <!-- Contenu pour Tout découvrir -->
-                <input type="text" id="search-input" placeholder="Filtrer par DEP...">
+                <input type="text" id="search-input" placeholder="Filtrer par MOTCLES, INTITULE, SYNONYMES...">
+                <select id="strate-select">
+                    <option value="">Choisir une strate</option>
+                    <option value="Moins de 500 habitants">Moins de 500 habitants</option>
+                    <option value="Entre 1 000 et 2 500 habitants">Entre 1 000 et 2 500 habitans</option>
+                    <option value="Entre 2 500 et 10 000 habitants">Entre 2 500 et 10 000 habitants</option>
+                    <option value="Entre 10 000 et 50 000 habitants">Entre 10 000 et 50 000 habitants</option>
+                    <option value="Entre 50 000 et 80 000 habitants">Entre 50 000 et 80 000 habitants</option>
+                    <option value="Entre 80 000 et 100 000 habitants">Entre 80 000 et 100 000 habitants</option>
+                    <option value="Plus de 100 000 habitants">Plus de 100 000 habitants</option>
+                    <!-- Les options seront ajoutées dynamiquement par le script.js -->
+                  </select>
+                  
                 <div id="vignettes-container">
                     <!-- Les vignettes s'afficheront ici -->
+                </div>
+                <div id="details-container">
+                    <!-- Les détails seront chargés ici -->
+                    Chargement des détails...
                 </div>
             </div>
         </main>
     </div>
-    <script src="script.js"></script> <!-- Assurez-vous d'avoir ce fichier JS -->
+    <script src="script.js"></script>
 </body>
 </html>
