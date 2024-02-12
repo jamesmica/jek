@@ -6,12 +6,11 @@ body, html {
 
 .container {
     display: flex;
-    background: lightgrey;
 }
 
 .sidebar {
     width: 80px;
-    background-color: #83a95c;
+    background-color: #00753B;
     height: 100vh;
     padding-top: 20px;
     transition: width .3s ease-in-out;
@@ -42,7 +41,7 @@ body, html {
 
 .nav-link.active,
 .nav-link:hover {
-    background-color: #6b8f47;
+    background-color: #00753B;
 }
 
 /* Cacher toutes les sections par défaut */
@@ -80,10 +79,11 @@ body, html {
         justify-content: center;
         padding-top: 16px;
         justify-content: center;
+        background-color: lightgrey;
 }
 
 .vignette {
-    padding: 16px;
+    margin: 16px;
 }
 
 
