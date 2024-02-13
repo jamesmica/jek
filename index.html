@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="google-site-verification" content="j46ydOv-vaJatRvM95ODLubdsarvERaaMBNyZvPFVEg" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js" integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css" integrity="sha256-ze/OEYGcFbPRmvCnrSeKbRTtjG4vGLHXgOqsyLFTRjg=" crossorigin="anonymous" />
 </head>
@@ -25,15 +25,58 @@
         <main class="main-content">
             <div id="accueil" class="main-section active">
                 <!-- Contenu pour Accueil -->
+                <label for="insee-select">Choisissez un code INSEE :</label>
+                <select id="insee-select" name="insee">
+                    <!-- Les options seront ajoutées dynamiquement ici -->
+                </select>
+                <script>
+                    $('#insee-select').selectize({
+        valueField: 'INSEE', // Utilisé pour la valeur interne
+        labelField: 'NOM_COUV', // Utilisé pour la recherche
+        searchField: ['NOM_COUV', 'INSEE'], // Permet de rechercher à la fois par NOM_COUV et INSEE
+        render: {
+            option: function(item, escape) {
+                // Personnalisation de l'affichage des options dans le menu déroulant
+                return '<div>' + escape(item.NOM_COUV) + ' - (' + escape(item.INSEE) + ')</div>';
+            },
+            item: function(item, escape) {
+                // Personnalisation de l'affichage de l'option sélectionnée
+                return '<div>' + escape(item.NOM_COUV) + ' - (' + escape(item.INSEE) + ')</div>';
+            }
+        },
+        load: function(query, callback) {
+            $.ajax({
+                url: 'pertinence.json', // Votre fichier JSON
+                type: 'GET',
+                dataType: 'json',
+                error: function() {
+                    callback();
+                },
+                success: function(res) {
+                    // Ici, vous n'avez pas besoin de filtrer puisque selectize gère le filtrage interne
+                    callback(res.slice(0, 10)); // Exemple: Charger seulement les 10 premiers initialement
+                }
+            });
+        }
+    });
+                </script>
             </div>
             <div id="thematiques" class="main-section">
                 <!-- Contenu pour Thématiques -->
+                <a href="#" class="select-optgroup" id="Jeunesse">Jeunesse Groupe A</a>
+                <a href="#" class="select-optgroup" id="Mobilités">Mobilités Groupe B</a>
+                
+
+                <a href="#" id="select-first-three-options">Sélectionner les trois premiers produits</a>
+
+
+
             </div>
             <div id="decouvrir" class="main-section">
                 <!-- Contenu pour Tout découvrir -->
                 <span id="filters">
                     <label for="produit-select">Choisissez un produit :</label>
-                        <select id="produit-select" name="produit">
+                        <select id="produit-select" name="produit" multiple>
                             <optgroup label="Attractivité du territoire">
                                 <option value="Développement économique">Développement économique</option>
                                 <option value="Tourisme">Tourisme</option>

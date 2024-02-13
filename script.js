@@ -12,9 +12,198 @@ $(document).ready(function () {
       // Par exemple, une fonction de filtrage différente ou la même que pour dep-nom-select
       console.log("Categorie sélectionnée :", value);
       // Supposons que vous vouliez appeler la même fonction filterVignettes
-      filterVignettes(); // Vous pouvez appeler une fonction différente si nécessaire
+      filterVignettes();
     }
   });
+  
+  window.selectFirstThreeOptions = function() {
+    var selectize = $('#produit-select')[0].selectize;
+    selectize.clear(); // Efface toutes les sélections
+
+    // Récupère les clés des options
+    var keys = Object.keys(selectize.options);
+
+    // Sélectionne les trois premières clés
+    var firstThreeKeys = keys.slice(0, 3);
+    selectize.setValue(firstThreeKeys, true); // Force le déclenchement du 'change'
+
+    // Simuler l'ajout et la suppression d'une option pour forcer le rafraîchissement
+    // Étape 1 : Simuler un clic sur l'input (focalisation)
+    $('#produit-select')[0].selectize.focus();
+
+    // Étape 2 : Simuler l'ajout d'une option (simulation d'une entrée au clavier)
+    setTimeout(function() {
+        var selectize = $('#produit-select')[0].selectize;
+        // Ajoute une option et la sélectionne
+        var dummyOptionValue = 'dummy-option'; // Assurez-vous que cette valeur est unique
+        selectize.addOption({value: dummyOptionValue, text: 'Dummy Option'});
+        selectize.addItem(dummyOptionValue);
+
+        // Étape 3 : Simuler une suppression (simulation de la touche Suppr)
+        setTimeout(function() {
+            selectize.removeItem(dummyOptionValue); // Supprime l'option fictive
+            selectize.blur(); // Retire le focus pour simuler la fin de l'interaction
+
+            // Force le rafraîchissement des vignettes si nécessaire
+            filterVignettes();
+        }, 100); // Attend un peu avant de simuler la suppression
+    }, 100); // Attend un peu avant de simuler l'ajout
+
+  };
+
+
+
+  $('#select-first-three-options').on('click', function(e) {
+      e.preventDefault();
+      selectFirstThreeOptions();
+      setTimeout(function(){
+        window.location.hash = "decouvrir";
+      }, 300);
+      
+  });
+
+
+
+
+  var $select = $('#insee-select').selectize({
+    valueField: 'INSEE',
+    labelField: 'NOM_COUV',
+    searchField: 'NOM_COUV',
+    load: function(query, callback) {
+        if (!query.length) return callback();
+        // Supposons que vous avez déjà chargé vos données dans `selectize`
+        callback();
+    },
+    onChange: function selectedInsee() {
+      adjustAndSortVignettesData(selectedInsee);
+      
+    }
+});
+
+var selectize = $select[0].selectize;
+
+// Supposons que vous avez chargé toutes vos options ici au démarrage
+$.ajax({
+    url: 'pertinence.json',
+    type: 'GET',
+    dataType: 'json',
+    success: function(res) {
+        // Ajoutez toutes vos options à Selectize ici
+        selectize.addOption(res); // Ajoute toutes les options au démarrage
+        selectize.refreshOptions(); // Rafraîchit les options affichées
+    }
+});
+
+let pertinenceData = [];
+
+// Fonction pour charger les données de pertinence.json
+function loadPertinenceData() {
+  return $.ajax({
+    url: 'pertinence.json',
+    type: 'GET',
+    dataType: 'json',
+    success: function(res) {
+        // Ajoutez toutes vos options à Selectize ici
+        selectize.addOption(res); // Ajoute toutes les options au démarrage
+        selectize.refreshOptions(); // Rafraîchit les options affichées
+    }
+});
+}
+
+// Appel de la fonction de chargement des données et initialisation de Selectize après le chargement
+loadPertinenceData().done(function(res) {
+    pertinenceData = res; // Stockage des données chargées
+});
+
+function adjustAndSortVignettesData(selectedInsee) {
+  vignettesData.forEach(function(vignette) {
+    vignette.SCORE = 1;
+});
+  //COMEPCI
+  const selectElement = document.getElementById('insee-select');
+  const inseeLength = selectElement.selectedOptions[0].value.length;
+  console.log("length.insee",inseeLength);
+  //STRATE
+  const inseeValue = selectElement.selectedOptions[0].value;
+  const selectedData = pertinenceData.find(item => String(item.INSEE) === String(inseeValue));
+  if (selectedData) {
+    const strateValue = selectedData.STRATE;
+    console.log('STRATE trouvée:', strateValue);
+    // Ici, vous pouvez ajuster les vignettesData basé sur la STRATE trouvée
+  } else {
+    console.log('Aucune STRATE trouvée pour cet INSEE');
+  }
+  const strateValue = selectedData.STRATE;
+
+  //GEOLOC
+  const XValue = parseFloat(selectedData.X);
+  const YValue = parseFloat(selectedData.Y);
+  console.log("X:",XValue,"Y:",YValue)
+
+  
+  //SCORING
+  vignettesData.forEach((vignette,index) => {
+      vignette.SCORE = parseFloat(vignette.SCORE);
+
+      // Appliquez la logique d'ajustement
+        //COMEPCI
+      if ((inseeLength > 6 && String(vignette.ID).length >= 6 && vignette.PAYS === "France") || 
+      (inseeLength > 3 && inseeLength < 7 && String(vignette.ID).length > 3 && String(vignette.ID).length < 7 && vignette.PAYS === "France")) {
+          vignette.SCORE += 0.5;
+      }
+        //STRATE
+      const strateValueNum = parseFloat(strateValue);
+      const vignetteStrateNum = parseFloat(vignette.STRATE2);
+
+      // Calcule la différence absolue entre strateValue et vignette.STRATE2
+      const diff = Math.abs(strateValueNum - vignetteStrateNum);
+
+      // Applique la logique d'ajustement basée sur la différence
+      if (diff < 2) {
+          vignette.SCORE += 1; // Ajoute +1 à la colonne SCORE
+      } else if (diff >= 2 && diff < 3) {
+          vignette.SCORE += 0.7; // Ajoute +0.7 à la colonne SCORE
+      } else if (diff >= 3 && diff < 4) {
+          vignette.SCORE += 0.5; // Ajoute +0.5 à la colonne SCORE
+      } else if (diff >= 4 && diff < 5) {
+        vignette.SCORE += 0.3; // Ajoute +0.5 à la colonne SCORE
+      } else if (diff >= 5 && diff < 6) {
+        vignette.SCORE += 0.1; // Ajoute +0.5 à la colonne SCORE
+      }
+        
+        //GEOLOC
+        //racine de ((xb-xa)²+(yb-ya)²)
+      const XBP = parseFloat(vignette.X);
+      const YBP = parseFloat(vignette.Y);
+      const distances = Math.sqrt(Math.pow(XBP - XValue, 2) + Math.pow(YBP - YValue, 2)); // Correction de la formule
+      console.log(`Distances pour la vignette ${index + 35896}: ${distances}`);
+
+      if (distances > 800000) {
+        vignette.SCORE += 0;
+      } else if (distances > 600000) {
+        vignette.SCORE += 0.1;
+      } else if (distances > 400000) {
+        vignette.SCORE += 0.2;
+      } else if (distances > 200000) {
+        vignette.SCORE += 0.4;
+      } else if (distances > 100000) {
+        vignette.SCORE += 0.7;
+      } else if (distances > 40000) {
+        vignette.SCORE += 0.8;
+      } else if (distances < 40001 || String(inseeValue) === String(vignette.INSEE)) {
+        vignette.SCORE += 1;
+      }
+  });
+
+  // Trier vignettesData par SCORE décroissant
+  vignettesData.sort((a, b) => parseFloat(b.SCORE) - parseFloat(a.SCORE));
+
+  // Afficher le tableau après le tri pour vérification
+  console.log(vignettesData);
+  window.location.hash = 'decouvrir';
+
+}
+
 
     // Écoute du clic sur le document entier
     $(document).mouseup(function(e) {
@@ -132,6 +321,7 @@ $(document).ready(function () {
     const depnom = $('#dep-nom-select').val();
     const thema = $('#produit-select').val();
     const filteredData = vignettesData.filter(item => {
+      const themaMatch = thema.length === 0 || [item.THEMA1, item.THEMA2, item.THEMA3, item.THEMA4].some(themaItem => thema.includes(String(themaItem)));
       return (item.DEP?.toLowerCase().includes(query) ||
               item.INTITULE?.toLowerCase().includes(query) ||
               item.SYNONYMES1?.toLowerCase().includes(query) ||
@@ -139,9 +329,7 @@ $(document).ready(function () {
               item.SYNONYMES3?.toLowerCase().includes(query)) &&
              (item.STRATE === strate || strate === "") &&
              (item.DEP_NOM === depnom || depnom === "") &&
-             (item.THEMA1 === thema || thema === "" || 
-             item.THEMA2 === thema || item.THEMA3 === thema ||
-             item.THEMA4 === thema);
+             themaMatch;
     });
     displayVignettes(filteredData);
   }
@@ -149,6 +337,8 @@ $(document).ready(function () {
   // Attachement des événements de filtrage
   $('#search-input').on('input', filterVignettes);
   $('#strate-select').on('change', filterVignettes);
+  $('#produit-select').on('change', filterVignettes);
+  $('#insee-select').on('change', adjustAndSortVignettesData);
   $(window).on('hashchange', handleHashChange);
 
   // Chargement initial des données
@@ -167,3 +357,4 @@ $(document).ready(function () {
   // Appel initial pour gérer le changement de hash
   handleHashChange();
 });
+
