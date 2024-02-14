@@ -1,3 +1,4 @@
+$(document).ready(function () {
 TH1 = function() {
     var selectize = $('#produit-select')[0].selectize;
     selectize.clear(); // Efface les sélections actuelles
@@ -466,3 +467,4 @@ TH1 = function() {
       TH15();
       window.location.hash = "decouvrir"
   });
+});
