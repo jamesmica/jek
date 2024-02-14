@@ -7,64 +7,14 @@ $(document).ready(function () {
 
   $('#produit-select').selectize({
     sortField: 'text',
-    onChange: function(value) {
-      // Vous pouvez placer ici votre logique spécifique pour gérer le changement de sélection de categorie-select
-      // Par exemple, une fonction de filtrage différente ou la même que pour dep-nom-select
-      console.log("Categorie sélectionnée :", value);
-      // Supposons que vous vouliez appeler la même fonction filterVignettes
-      filterVignettes();
-    }
+    onChange: filterVignettes
+  });
+
+  $('#strate-select').selectize({
+    sortField: 'text',
+    onChange: filterVignettes
   });
   
-  window.selectFirstThreeOptions = function() {
-    var selectize = $('#produit-select')[0].selectize;
-    selectize.clear(); // Efface toutes les sélections
-
-    // Récupère les clés des options
-    var keys = Object.keys(selectize.options);
-
-    // Sélectionne les trois premières clés
-    var firstThreeKeys = keys.slice(0, 3);
-    selectize.setValue(firstThreeKeys, true); // Force le déclenchement du 'change'
-
-    // Simuler l'ajout et la suppression d'une option pour forcer le rafraîchissement
-    // Étape 1 : Simuler un clic sur l'input (focalisation)
-    $('#produit-select')[0].selectize.focus();
-
-    // Étape 2 : Simuler l'ajout d'une option (simulation d'une entrée au clavier)
-    setTimeout(function() {
-        var selectize = $('#produit-select')[0].selectize;
-        // Ajoute une option et la sélectionne
-        var dummyOptionValue = 'dummy-option'; // Assurez-vous que cette valeur est unique
-        selectize.addOption({value: dummyOptionValue, text: 'Dummy Option'});
-        selectize.addItem(dummyOptionValue);
-
-        // Étape 3 : Simuler une suppression (simulation de la touche Suppr)
-        setTimeout(function() {
-            selectize.removeItem(dummyOptionValue); // Supprime l'option fictive
-            selectize.blur(); // Retire le focus pour simuler la fin de l'interaction
-
-            // Force le rafraîchissement des vignettes si nécessaire
-            filterVignettes();
-        }, 100); // Attend un peu avant de simuler la suppression
-    }, 100); // Attend un peu avant de simuler l'ajout
-
-  };
-
-
-
-  $('#select-first-three-options').on('click', function(e) {
-      e.preventDefault();
-      selectFirstThreeOptions();
-      setTimeout(function(){
-        window.location.hash = "decouvrir";
-      }, 300);
-      
-  });
-
-
-
-
   var $select = $('#insee-select').selectize({
     valueField: 'INSEE',
     labelField: 'NOM_COUV',
@@ -259,8 +209,27 @@ function adjustAndSortVignettesData(selectedInsee) {
     const detailsMarkup = `
       <div class="close-btn">✖ Fermer</div>
       <h2>${details.INTITULE}</h2>
-      <img src="www/img/${details.IMG}" alt="${details.INTITULE}" />
+      <h4>${details.PAYS} | ${details.TER} (${details.POP} hab.) | ${details.ANNEE} </h4>
+      <div class="BP_page_content">
+      <div class="BP_page_imgdownload">
+      <img src="www/img/${details.IMG}" class="BP_page_img" alt="${details.INTITULE}" />
+      <a href="www/pdf/Bonnes Pratiques_Partie${details.N}.pdf" download="${details.INTITULE}">Télécharger en PDF</a>
+      </div>
+      <span class="BP_page_description">
       <p>${details.DESCRIPTION1}</p>
+      <p>${details.DESCRIPTION2}</p>
+      <p>${details.DESCRIPTION3}</p>
+      </span>
+      <div class="BP_page_graphref">
+      <span class="BP_page_ref">
+      <h5>Portée par </h5>
+      <p>${details.CREDIT}</p>
+      <h5>Contact</h5>
+      <p>${details.CONTACT}</p>
+      </span>
+      <img src="www/graph/${details.GRAPH}" class="BP_page_graph" alt="${details.INTITULE}" />
+      </div>
+      </div>
     `;
     detailsContainer.html(detailsMarkup).addClass('open');
 
@@ -281,8 +250,7 @@ function adjustAndSortVignettesData(selectedInsee) {
             <div class="details-link" tabindex="0">
               <img src="www/img/${item.IMG}" alt="${item.INTITULE}"/>
               <div class="BP_text">
-                <h2> ${item.THEMA1} </h2>
-                <h3 class="BP_title">${item.INTITULE} - ${item.TER} (${item.ID})</h3>
+                <h2 class="BP_title">${item.INTITULE} - ${item.TER} (${item.DEP})</h2>
                 <p class="BP_caption">${item.DESCRIPTION1}</p>
               </div>
             </div>
@@ -323,6 +291,8 @@ function adjustAndSortVignettesData(selectedInsee) {
     const filteredData = vignettesData.filter(item => {
       const themaMatch = thema.length === 0 || [item.THEMA1, item.THEMA2, item.THEMA3, item.THEMA4].some(themaItem => thema.includes(String(themaItem)));
       return (item.DEP?.toLowerCase().includes(query) ||
+              item.TER?.toLowerCase().includes(query) ||
+              item.DEP_NOM?.toLowerCase().includes(query) ||
               item.INTITULE?.toLowerCase().includes(query) ||
               item.SYNONYMES1?.toLowerCase().includes(query) ||
               item.SYNONYMES2?.toLowerCase().includes(query) ||
@@ -357,4 +327,3 @@ function adjustAndSortVignettesData(selectedInsee) {
   // Appel initial pour gérer le changement de hash
   handleHashChange();
 });
-

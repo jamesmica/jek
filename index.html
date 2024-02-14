@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Aider les collectivités territoriales à orienter leurs politiques publiques à travers un répertoire complet de bonnes pratiques.">
+    <meta name="description" content="Aider les collectivités territoriales à orienter leurs politiques publiques à travers un répertoire complet de bonnes pratiques en France et en UE.">
     <title>Plateforme Bonnes Pratiques</title>
     <link rel="shortcut icon" href="www/favicon1.ico">
     <link rel="stylesheet" href="styles.css">
@@ -13,6 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js" integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk=" crossorigin="anonymous"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LQ7GD27TM"></script>
+    <script src="https://kit.fontawesome.com/c63fbbb55a.js" crossorigin="anonymous"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
@@ -25,15 +26,21 @@
 <body>
     <div class="container">
         <nav class="sidebar">
+            <a href="#accueil"><img src="www/logo.webp" alt ="logo"></a>
+            <a href="#accueil"><img src="www/logo_crop.webp" alt ="logo"></a>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#accueil" class="nav-link active">Accueil</a></li>
-                <li class="nav-item"><a href="#thematiques" class="nav-link">Thématiques</a></li>
-                <li class="nav-item"><a href="#decouvrir" class="nav-link">Tout découvrir</a></li>
+                <li class="nav-item"><a href="#accueil" class="nav-link active"><i class="fas fa-solid fa-house"></i><span class="nav-text">Accueil</span></a></li>
+                <li class="nav-item"><a href="#thematiques" class="nav-link"><i class="fas fa-solid fa-book"></i><span class="nav-text">Thématiques</span></a></li>
+                <li class="nav-item"><a href="#decouvrir" class="nav-link"><i class="fas fa-solid fa-compass"></i><span class="nav-text">Tout découvrir</span></a></li>
             </ul>
         </nav>
         <main class="main-content">
             <div id="accueil" class="main-section active">
                 <!-- Contenu pour Accueil -->
+                <h1 class="titreBP">BIBLIOTHÈQUE DE BONNES PRATIQUES</h1>
+                <div class="green_div_column">
+                    <h3>La première banque d'initiatives innovantes portées par les collectivités de France et à l'étranger</h3>
+                    <h3>+ de 500 Bonnes Pratiques</h3>
                 <label for="insee-select">Choisissez un code INSEE :</label>
                 <select id="insee-select" name="insee">
                     <!-- Les options seront ajoutées dynamiquement ici -->
@@ -69,23 +76,116 @@
         }
     });
                 </script>
+                </div>
             </div>
             <div id="thematiques" class="main-section">
                 <!-- Contenu pour Thématiques -->
-                <a href="#" class="select-optgroup" id="Jeunesse">Jeunesse Groupe A</a>
-                <a href="#" class="select-optgroup" id="Mobilités">Mobilités Groupe B</a>
-                
-
-                <a href="#" id="select-first-three-options">Sélectionner les trois premiers produits</a>
+                <h1 class="titreBP">BIBLIOTHÈQUE DE BONNES PRATIQUES</h1>
+                <div class="green_div_column">
+                    <h3>Thématiques</h3>
+                    <div class="themes">
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH1" >
+                          <img src="www/picto/Attractivité.png" height="80%" alt="Démographie_logo">
+                          Attractivité du territoire
+                        </a>
+                      </div>
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH2" >
+                          <img src="www/picto/Jeunesse.png" height="80%" alt="Démographie_logo">
+                          Jeunesse
+                        </a>
+                      </div>
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH3" >
+                          <img src="www/picto/Enfance &amp; éducation.png" height="80%" alt="petite_enfance_logo">
+                          Enfance &amp; éducation
+                        </a>
+                      </div>
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH4" >
+                          <img src="www/picto/Mobilités.png" height="80%" alt="enfance_jeunesse_logo">
+                          Mobilités
+                        </a>
+                      </div>
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH5" >
+                          <img src="www/picto/Solidarités &amp; action sociale.png" height="80%" alt="familles_logo">
+                          Solidarités &amp; action sociale
+                        </a>
+                      </div>
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH6" >
+                          <img src="www/picto/Sport, culture, loisirs.png" height="80%" alt="séniors_logo">
+                          Sport, culture, loisirs
+                        </a>
+                      </div>
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH7" >
+                          <img src="www/picto/Logement &amp; habitat.png" height="80%" alt="logement_logo">
+                          Logement &amp; habitat
+                        </a>
+                      </div>
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH8" >
+                          <img src="www/picto/Vie de la collectivité.png" height="80%" alt="habitat_logo">
+                          Vie de la collectivité
+                        </a>
+                      </div>
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH9" >
+                          <img src="www/picto/Egalité F-H.png" height="80%" alt="emploi_logo">
+                          Égalité femmes-hommes
+                        </a>
+                      </div>
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH10" >
+                          <img src="www/picto/Santé &amp; handicap.png" height="80%" alt="revenus_précarité_logo">
+                          Santé &amp; handicap
+                        </a>
+                      </div>
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH11" >
+                          <img src="www/picto/Emploi &amp; entreprises.png" height="80%" alt="égalité_femmes_hommes_logo">
+                          Emploi &amp; entreprises
+                        </a>
+                      </div>
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH12" >
+                          <img src="www/picto/Vie locale.png" height="80%" alt="santé_handicap_logo">
+                          Vie locale
+                        </a>
+                      </div>
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH13" >
+                          <img src="www/picto/Participation citoyenne.png" height="80%" alt="Démographie_logo">
+                          Participation citoyenne
+                        </a>
+                      </div>
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH14" >
+                          <img src="www/picto/Environnement &amp; urbanisme.png" height="80%" alt="entreprises_logo">
+                          Environnement &amp; urbanisme
+                        </a>
+                      </div>
+                      <div class="ombre carre-thematique">
+                        <a class="action-button shiny-bound-input" href="#" id="TH15" >
+                          <img src="www/picto/Finances publiques.png" height="80%" alt="vie_locale_logo">
+                          Finances publiques
+                        </a>
+                      </div>
+                    </div>
+                  </div>
 
 
 
             </div>
             <div id="decouvrir" class="main-section">
                 <!-- Contenu pour Tout découvrir -->
+                <h1 class="titreBP">BIBLIOTHÈQUE DE BONNES PRATIQUES</h1>
                 <span id="filters">
-                    <label for="produit-select">Choisissez un produit :</label>
                         <select id="produit-select" name="produit" multiple>
+                            <option value="">Choisir une thématique</option>
                             <optgroup label="Attractivité du territoire">
                                 <option value="Développement économique">Développement économique</option>
                                 <option value="Tourisme">Tourisme</option>
@@ -327,5 +427,13 @@
         </main>
     </div>
     <script src="script.js"></script>
+    <script src="script_thema.js"></script>
+    <script>
+        window.onload = function() {
+          if (!window.location.hash) {
+            window.location.hash = "#accueil";
+          }
+        };
+        </script>
 </body>
 </html>
