@@ -11,7 +11,6 @@ $(document).ready(function () {
   });
 
   $('#strate-select').selectize({
-    sortField: 'text',
     onChange: filterVignettes
   });
   
@@ -208,7 +207,7 @@ function adjustAndSortVignettesData(selectedInsee) {
 
     const detailsMarkup = `
       <div class="close-btn">✖ Fermer</div>
-      <h2>${details.INTITULE}</h2>
+      <h2>${details.INTITULE} - (${details.DEP})</h2>
       <h4>${details.PAYS} | ${details.TER} (${details.POP} hab.) | ${details.ANNEE} </h4>
       <div class="BP_page_content">
       <div class="BP_page_imgdownload">
