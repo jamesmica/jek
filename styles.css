@@ -9,7 +9,19 @@ div#accueil {
     width: calc(100vw - 80px);
 }
 
-#accueil_text h3:nth-child(2) {
+.accueil_text {
+    display: flex;
+    flex-direction: column;
+}
+
+#accueil h3 {
+    text-align: center;
+    color: black;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#CCBP {
     text-decoration: underline;
     text-underline-position: under;
     text-underline-offset: 8px;
@@ -408,13 +420,14 @@ div.green_div_column {
     text-align: center;
     background-color: #E5EFD1;
     width: calc(100vw - 80px);
-    height: 60vh;
+    height: 80vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin-left: 0px;
     overflow-y: auto;
     overflow-x: hidden;
+    justify-content: space-around;
 }
 
 .themes {

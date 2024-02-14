@@ -213,7 +213,7 @@ function adjustAndSortVignettesData(selectedInsee) {
       <div class="BP_page_content">
       <div class="BP_page_imgdownload">
       <img src="www/img/${details.IMG}" class="BP_page_img" alt="${details.INTITULE}" />
-      <a href="www/pdf/Bonnes Pratiques_Partie${details.N}.pdf" download="${details.INTITULE}">Télécharger en PDF</a>
+      <a href="www/pdf/Bonnes Pratiques_Partie${details.N}.pdf" download="${details.INTITULE}">Télécharger en PDF<i class="fa-solid fa-download"></i></a>
       </div>
       <span class="BP_page_description">
       <p>${details.DESCRIPTION1}</p>
@@ -226,6 +226,7 @@ function adjustAndSortVignettesData(selectedInsee) {
       <p>${details.CREDIT}</p>
       <h5>Contact</h5>
       <p>${details.CONTACT}</p>
+      <a href="${details.LINK}">${details.LINK}</a>
       </span>
       <img src="www/graph/${details.GRAPH}" class="BP_page_graph" alt="${details.INTITULE}" />
       </div>
