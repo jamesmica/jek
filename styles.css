@@ -9,6 +9,10 @@ div#accueil {
     width: calc(100vw - 80px);
 }
 
+#accueil img {
+    width: 40vw;
+}
+
 .accueil_text {
     display: flex;
     flex-direction: column;
