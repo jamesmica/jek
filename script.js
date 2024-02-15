@@ -207,7 +207,7 @@ function adjustAndSortVignettesData(selectedInsee) {
 
     const detailsMarkup = `
       <div class="close-btn">✖ Fermer</div>
-      <h2>${details.INTITULE} - (${details.DEP})</h2>
+      <h2>${details.INTITULE} - ${details.TER} (${details.DEP_NOM})</h2>
       <h4>${details.PAYS} | ${details.TER} (${details.POP} hab.) | ${details.ANNEE} </h4>
       <div class="BP_page_content">
       <div class="BP_page_imgdownload">
@@ -250,7 +250,7 @@ function adjustAndSortVignettesData(selectedInsee) {
             <div class="details-link" tabindex="0">
               <img src="www/img/${item.IMG}" alt="${item.INTITULE}"/>
               <div class="BP_text">
-                <h2 class="BP_title">${item.INTITULE} - ${item.TER} (${item.DEP})</h2>
+                <h2 class="BP_title">${item.INTITULE} - ${item.TER} (${item.DEP_NOM})</h2>
                 <p class="BP_caption">${item.DESCRIPTION1}</p>
               </div>
             </div>

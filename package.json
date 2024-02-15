@@ -4,7 +4,6 @@
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
-    "express": "^4.18.2",
-    "xlsx": "^0.18.5"
+    "express": "^4.18.2"
   }
 }
