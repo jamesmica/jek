@@ -1,12 +1,10 @@
 $(document).ready(function () {
   // Initialisation de Selectize pour dep-nom-select avec gestion des changements
   $('#dep-nom-select').selectize({
-    sortField: 'text',
     onChange: filterVignettes // Appel de la fonction de filtrage lors d'un changement de sélection
   });
 
   $('#produit-select').selectize({
-    sortField: 'text',
     onChange: filterVignettes
   });
 
