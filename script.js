@@ -202,7 +202,7 @@ function adjustAndSortVignettesData(selectedInsee) {
       detailsContainer.html('Détail non trouvé.');
       return;
     }
-
+    
     var style = document.createElement('style');
     var newStyle = `
     .BP_page_background {
@@ -216,7 +216,7 @@ function adjustAndSortVignettesData(selectedInsee) {
       <div class="close-btn">✖ Fermer</div>
       <div class="BP_page_background"></div>
       <h2>${details.INTITULE} - ${details.TER} (${details.DEP_NOM})</h2>
-      <h4>${details.PAYS} | ${details.TER} (${details.POP} hab.) | ${details.ANNEE} </h4>
+      <h4>${details.PAYS} | ${details.TER} (${parseInt(details.POP).toLocaleString()} hab.) | ${details.ANNEE} </h4>
       <div class="BP_page_content">
       <div class="BP_page_imgdownload">
       <img src="www/webpv/${details.WEBP}" class="BP_page_img" alt="${details.INTITULE}" />
