@@ -203,13 +203,23 @@ function adjustAndSortVignettesData(selectedInsee) {
       return;
     }
 
-    const detailsMarkup = `
+    var style = document.createElement('style');
+    var newStyle = `
+    .BP_page_background {
+      background-image: url(www/webp/${details.WEBP});
+    }
+    `;
+    style.innerHTML = newStyle
+    document.head.appendChild(style);
+
+    var detailsMarkup = `
       <div class="close-btn">✖ Fermer</div>
+      <div class="BP_page_background"></div>
       <h2>${details.INTITULE} - ${details.TER} (${details.DEP_NOM})</h2>
       <h4>${details.PAYS} | ${details.TER} (${details.POP} hab.) | ${details.ANNEE} </h4>
       <div class="BP_page_content">
       <div class="BP_page_imgdownload">
-      <img src="www/img/${details.IMG}" class="BP_page_img" alt="${details.INTITULE}" />
+      <img src="www/webpv/${details.WEBP}" class="BP_page_img" alt="${details.INTITULE}" />
       <a href="www/pdf/Bonnes Pratiques_Partie${details.N}.pdf" download="${details.INTITULE}">Télécharger en PDF<i class="fa-solid fa-download"></i></a>
       </div>
       <span class="BP_page_description">
@@ -246,7 +256,7 @@ function adjustAndSortVignettesData(selectedInsee) {
         const vignette = $(`
           <div class="vignette">
             <div class="details-link" tabindex="0">
-              <img src="www/img/${item.IMG}" alt="${item.INTITULE}"/>
+              <img src="www/webp/${item.WEBP}" alt="${item.INTITULE}"/>
               <div class="BP_text">
                 <h2 class="BP_title">${item.INTITULE} - ${item.TER} (${item.DEP_NOM})</h2>
                 <p class="BP_caption">${item.DESCRIPTION1}</p>
@@ -304,6 +314,7 @@ function adjustAndSortVignettesData(selectedInsee) {
 
   // Attachement des événements de filtrage
   $('#search-input').on('input', filterVignettes);
+  $('#search-input').on('change', filterVignettes);
   $('#strate-select').on('change', filterVignettes);
   $('#produit-select').on('change', filterVignettes);
   $('#insee-select').on('change', adjustAndSortVignettesData);
@@ -324,4 +335,5 @@ function adjustAndSortVignettesData(selectedInsee) {
 
   // Appel initial pour gérer le changement de hash
   handleHashChange();
+  
 });
