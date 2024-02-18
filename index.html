@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="description" content="Aider les collectivités territoriales à orienter leurs politiques publiques à travers un répertoire complet de bonnes pratiques en France et en UE.">
     <title>Plateforme Bonnes Pratiques</title>
-    <link rel="shortcut icon" href="www/favicon1.ico">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/jamesmica/PBP/main/www/favicon1.ico">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css" integrity="sha256-ze/OEYGcFbPRmvCnrSeKbRTtjG4vGLHXgOqsyLFTRjg=" crossorigin="anonymous" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="google-site-verification" content="MrbDz_9XAfkWTMT17jbKKq4o-dcR1gHhu6WXCPzzL8E" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js" integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk=" crossorigin="anonymous"></script>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LQ7GD27TM"></script>
@@ -22,7 +23,6 @@
 
     gtag('config', 'G-0LQ7GD27TM');
     </script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css" integrity="sha256-ze/OEYGcFbPRmvCnrSeKbRTtjG4vGLHXgOqsyLFTRjg=" crossorigin="anonymous" />
 </head>
 <body>
     <div class="container">
@@ -54,6 +54,16 @@
         valueField: 'INSEE', // Utilisé pour la valeur interne
         labelField: 'NOM_COUV', // Utilisé pour la recherche
         searchField: ['NOM_COUV', 'INSEE'], // Permet de rechercher à la fois par NOM_COUV et INSEE
+        maxOptions: 100,
+        sortField: [
+            {
+                field: 'INSEE',
+                direction: 'asc'
+            },
+            {
+                field: '$score'
+            }
+        ],
         render: {
             option: function(item, escape) {
                 // Personnalisation de l'affichage des options dans le menu déroulant
@@ -71,10 +81,6 @@
                 dataType: 'json',
                 error: function() {
                     callback();
-                },
-                success: function(res) {
-                    // Ici, vous n'avez pas besoin de filtrer puisque selectize gère le filtrage interne
-                    callback(res.slice(0, 10)); // Exemple: Charger seulement les 10 premiers initialement
                 }
             });
         }
@@ -425,6 +431,7 @@
                 </div>
                 <div id="vignettes-container">
                     <!-- Les vignettes s'afficheront ici -->
+                    <button id="load-more-btn">Suivant</button>
                 </div>
                 <div id="details-container">
                     <!-- Les détails seront chargés ici -->

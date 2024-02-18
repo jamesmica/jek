@@ -674,5 +674,28 @@ div.green_div_column {
     background-size: cover;
 }
 
+button#load-more-btn {
+    margin: 32px;
+    margin-top: 16px;
+    width: 160px;
+    height: 40px;
+    background: #00753b;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button#load-more-btn:active {
+    background: white;
+    color: #00753b;
+    border: 2px solid #00753b;
+}
+
+button#load-more-btn:hover {
+    opacity: 0.7;
+}
+
 
 

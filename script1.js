@@ -33,7 +33,12 @@ var selectize = $select[0].selectize;
 $.ajax({
     url: 'pertinence.json',
     type: 'GET',
-    dataType: 'json'
+    dataType: 'json',
+    success: function(res) {
+        // Ajoutez toutes vos options à Selectize ici
+        selectize.addOption(res); // Ajoute toutes les options au démarrage
+        selectize.refreshOptions(); // Rafraîchit les options affichées
+    }
 });
 
 let pertinenceData = [];
@@ -242,20 +247,11 @@ function adjustAndSortVignettesData(selectedInsee) {
     });
   }
 
-  let displayCount = 60; // Initialiser le nombre de vignettes à afficher
-
-  $('#load-more-btn').on('click', function() {
-    displayCount += 60; // Augmenter le nombre de vignettes à afficher de 50
-  });
-
   // Fonction pour afficher les vignettes
   function displayVignettes(data) {
     const container = $('#vignettes-container');
-    const loadMoreBtn = $('#load-more-btn').detach(); // Détacher le bouton temporairement
-    container.empty(); // Vider le conteneur
-    
-    const dataToDisplay = data.slice(0, displayCount);
-    dataToDisplay.forEach(item => {
+    container.empty();
+    data.forEach(item => {
       if (item.DEP && item.INTITULE) {
         const vignette = $(`
           <div class="vignette">
@@ -273,18 +269,8 @@ function adjustAndSortVignettesData(selectedInsee) {
           window.history.pushState({ path: newUrl }, '', newUrl);
         });
         container.append(vignette);
-            // Optionnel : Cacher le bouton si toutes les vignettes sont affichées
-
       }
-    });          
-
-    container.append(loadMoreBtn); // Remettre le bouton dans le conteneur
-    if (displayCount >= $(data).length || ($(data).length < 60 || displayCount > 659)) {
-        $('#load-more-btn').hide();
-    } else {
-        $('#load-more-btn').show();
-    }
-
+    });
   }
 
   // Gestion du changement de hash
@@ -331,7 +317,6 @@ function adjustAndSortVignettesData(selectedInsee) {
   $('#search-input').on('change', filterVignettes);
   $('#strate-select').on('change', filterVignettes);
   $('#produit-select').on('change', filterVignettes);
-  $('#load-more-btn').on('click', filterVignettes);
   $('#insee-select').on('change', adjustAndSortVignettesData);
   $(window).on('hashchange', handleHashChange);
 
