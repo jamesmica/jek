@@ -23,16 +23,26 @@
 
     gtag('config', 'G-0LQ7GD27TM');
     </script>
+    <script>
+        window.onload = function() {
+          // Vérifie si l'URL ne contient pas déjà des paramètres de recherche 'page'
+          const searchParams = new URLSearchParams(window.location.search);
+          if (!searchParams.has('page')) {
+            // Redirige vers la même URL avec le paramètre de recherche pour la page d'accueil
+            window.location.search = '?page=accueil';
+          }
+        };
+    </script>
 </head>
 <body>
     <div class="container">
         <nav class="sidebar">
-            <a href="#accueil"> <img src="www/logo.webp" alt ="logo"></a>
-            <a href="#accueil"> <img src="www/logo_crop.webp" alt ="logo"></a>
+            <a href="?page=accueil"> <img src="www/logo.webp" alt ="logo"></a>
+            <a href="?page=accueil"> <img src="www/logo_crop.webp" alt ="logo"></a>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="#accueil" class="nav-link active"><i class="fas fa-solid fa-house"></i><span class="nav-text">Accueil</span></a></li>
-                <li class="nav-item"><a href="#thematiques" class="nav-link"><i class="fas fa-solid fa-book"></i><span class="nav-text">Thématiques</span></a></li>
-                <li class="nav-item"><a href="#decouvrir" class="nav-link"><i class="fas fa-solid fa-compass"></i><span class="nav-text">Tout découvrir</span></a></li>
+                <li class="nav-item"><a href="?page=accueil" class="nav-link active"><i class="fas fa-solid fa-house"></i><span class="nav-text">Accueil</span></a></li>
+                <li class="nav-item"><a href="?page=thematiques" class="nav-link"><i class="fas fa-solid fa-book"></i><span class="nav-text">Thématiques</span></a></li>
+                <li class="nav-item"><a href="?page=decouvrir" class="nav-link"><i class="fas fa-solid fa-compass"></i><span class="nav-text">Tout découvrir</span></a></li>
             </ul>
         </nav>
         <main class="main-content">
@@ -48,7 +58,7 @@
                     <!-- Les options seront ajoutées dynamiquement ici -->
                 </select>
                 <p id="select_reason" class="BP_caption">Pour une sélection de bonnes pratiques adaptées à mon contexte local </p>
-                <a id ="sans_collectivite" class="BP_caption" href="#decouvrir" >Ou continuer sans collectivité</a>
+                <a id ="sans_collectivite" class="BP_caption" href="?page=decouvrir" >Ou continuer sans collectivité</a>
                 <script>
                     $('#insee-select').selectize({
         valueField: 'INSEE', // Utilisé pour la valeur interne
@@ -443,13 +453,6 @@
     <script src="script.js"></script>
     <script src="script_thema.js"></script>
     <script src="scriptChart.js"></script>
-    <script>
-        window.onload = function() {
-          if (!window.location.hash) {
-            window.location.hash = "#accueil";
-          }
-        };
-        </script>
     <script>
       function resetFilters() {
           // Réinitialiser chaque selectize

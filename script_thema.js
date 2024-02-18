@@ -1,4 +1,27 @@
 document.addEventListener("DOMContentLoaded", function () {
+
+  function handleNavigation() {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const page = urlParams.get('page') || 'accueil'; // Fallback sur 'accueil' si aucun paramètre n'est donné
+
+    // Logique pour activer la section correspondante
+    activateSectionAndLink(page);
+}
+
+  // Fonction pour activer la section et le lien correspondants
+  function activateSectionAndLink(page) {
+    // Désactiver tous les liens et sections actifs
+    $('.nav-link').removeClass('active');
+    $('.main-section').removeClass('active');
+
+    // Activer le lien correspondant
+    $(`a[href="?page=${page}"]`).addClass('active');
+
+    // Activer la section correspondante
+    $('#' + page).addClass('active');
+}
+
 TH1 = function() {
     var selectize = $('#produit-select')[0].selectize;
     selectize.clear(); // Efface les sélections actuelles
@@ -24,9 +47,10 @@ TH1 = function() {
   };
 
   $('#TH1').on('click', function(e) {
-      e.preventDefault();
+     e.preventDefault();
       TH1();
-      window.location.hash = "decouvrir"
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 
 
@@ -57,7 +81,9 @@ TH1 = function() {
   $('#TH2').on('click', function(e) {
       e.preventDefault();
       TH2();
-      window.location.hash = "decouvrir"
+            
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 
 
@@ -88,7 +114,9 @@ TH1 = function() {
   $('#TH3').on('click', function(e) {
       e.preventDefault();
       TH3();
-      window.location.hash = "decouvrir"
+            
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 
 
@@ -120,7 +148,9 @@ TH1 = function() {
   $('#TH4').on('click', function(e) {
       e.preventDefault();
       TH4();
-      window.location.hash = "decouvrir"
+            
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 
 
@@ -151,7 +181,9 @@ TH1 = function() {
   $('#TH5').on('click', function(e) {
       e.preventDefault();
       TH5();
-      window.location.hash = "decouvrir"
+            
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 
 
@@ -182,7 +214,9 @@ TH1 = function() {
   $('#TH6').on('click', function(e) {
       e.preventDefault();
       TH6();
-      window.location.hash = "decouvrir"
+            
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 
 
@@ -214,7 +248,9 @@ TH1 = function() {
   $('#TH7').on('click', function(e) {
       e.preventDefault();
       TH7();
-      window.location.hash = "decouvrir"
+            
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 
 
@@ -245,7 +281,9 @@ TH1 = function() {
   $('#TH8').on('click', function(e) {
       e.preventDefault();
       TH8();
-      window.location.hash = "decouvrir"
+            
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 
 
@@ -277,7 +315,9 @@ TH1 = function() {
   $('#TH9').on('click', function(e) {
       e.preventDefault();
       TH9();
-      window.location.hash = "decouvrir"
+            
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 
 
@@ -309,7 +349,9 @@ TH1 = function() {
   $('#TH10').on('click', function(e) {
       e.preventDefault();
       TH10();
-      window.location.hash = "decouvrir"
+            
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 
 
@@ -340,7 +382,9 @@ TH1 = function() {
   $('#TH11').on('click', function(e) {
       e.preventDefault();
       TH11();
-      window.location.hash = "decouvrir"
+            
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 
 
@@ -371,7 +415,9 @@ TH1 = function() {
   $('#TH12').on('click', function(e) {
       e.preventDefault();
       TH12();
-      window.location.hash = "decouvrir"
+            
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 
 
@@ -402,7 +448,9 @@ TH1 = function() {
   $('#TH13').on('click', function(e) {
       e.preventDefault();
       TH13();
-      window.location.hash = "decouvrir"
+            
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 
 
@@ -433,7 +481,9 @@ TH1 = function() {
   $('#TH14').on('click', function(e) {
       e.preventDefault();
       TH14();
-      window.location.hash = "decouvrir"
+            
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 
 
@@ -465,6 +515,8 @@ TH1 = function() {
   $('#TH15').on('click', function(e) {
       e.preventDefault();
       TH15();
-      window.location.hash = "decouvrir"
+            
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
   });
 });

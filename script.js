@@ -64,6 +64,10 @@ function adjustAndSortVignettesData(selectedInsee) {
   //COMEPCI
   const selectElement = document.getElementById('insee-select');
   const inseeLength = selectElement.selectedOptions[0].value.length;
+
+  if (!inseeLength) {
+    return ;
+  }
   console.log("length.insee",inseeLength);
   //STRATE
   const inseeValue = selectElement.selectedOptions[0].value;
@@ -80,7 +84,6 @@ function adjustAndSortVignettesData(selectedInsee) {
   //GEOLOC
   const XValue = parseFloat(selectedData.X);
   const YValue = parseFloat(selectedData.Y);
-  console.log("X:",XValue,"Y:",YValue)
 
   
   //SCORING
@@ -118,7 +121,6 @@ function adjustAndSortVignettesData(selectedInsee) {
       const XBP = parseFloat(vignette.X);
       const YBP = parseFloat(vignette.Y);
       const distances = Math.sqrt(Math.pow(XBP - XValue, 2) + Math.pow(YBP - YValue, 2)); // Correction de la formule
-      console.log(`Distances pour la vignette ${index + 35896}: ${distances}`);
 
       if (distances > 800000) {
         vignette.SCORE += 0;
@@ -142,7 +144,10 @@ function adjustAndSortVignettesData(selectedInsee) {
 
   // Afficher le tableau après le tri pour vérification
   console.log(vignettesData);
-  window.location.hash = 'decouvrir';
+  displayVignettes(vignettesData);
+  window.location.hash = '#decouvrir';
+  history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+  handleNavigation();
 
 }
 
@@ -162,32 +167,42 @@ function adjustAndSortVignettesData(selectedInsee) {
   // Variables globales pour stocker les données
   let vignettesData = [];
 
+  function handleNavigation() {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const page = urlParams.get('page') || 'accueil'; // Fallback sur 'accueil' si aucun paramètre n'est donné
+
+    // Logique pour activer la section correspondante
+    activateSectionAndLink(page);
+}
+
   // Fonction pour activer la section et le lien correspondants
-  function activateSectionAndLink(activeLink) {
+  function activateSectionAndLink(page) {
+    // Désactiver tous les liens et sections actifs
     $('.nav-link').removeClass('active');
     $('.main-section').removeClass('active');
 
-    if (activeLink) {
-      $(activeLink).addClass('active');
-      const activeSection = $($(activeLink).attr('href'));
-      if (activeSection) $(activeSection).addClass('active');
-    }
-  }
+    // Activer le lien correspondant
+    $(`a[href="?page=${page}"]`).addClass('active');
+
+    // Activer la section correspondante
+    $('#' + page).addClass('active');
+}
+
 
   // Écouteurs d'événements pour les liens de navigation
-  $('.nav-link').on('click', function (event) {
-    event.preventDefault();
-    const hash = $(this).attr('href');
-    window.location.hash = hash;
-    activateSectionAndLink(this);
-  });
+  $('.nav-link').on('click', function(e) {
+    e.preventDefault(); // Empêcher le comportement par défaut
 
-  // Fonction pour extraire l'ID à partir du hash
-  function getIdFromHash() {
-    const hash = window.location.hash;
-    const idMatch = hash.match(/id=([^&]+)/);
-    return idMatch ? idMatch[1] : null;
-  }
+    // Récupérer le paramètre 'page' du lien cliqué
+    const page = new URL(this.href).searchParams.get('page');
+    
+    // Mettre à jour l'URL sans recharger la page
+    history.pushState({page: page}, '', '?page=' + page);
+
+    // Charger la section correspondante
+    handleNavigation();
+});
 
   // Fonction pour afficher les détails d'une vignette
   function displayDetails(id) {
@@ -238,8 +253,14 @@ function adjustAndSortVignettesData(selectedInsee) {
 
     $('.close-btn').on('click', function () {
       detailsContainer.removeClass('open');
-      window.history.pushState({}, '', window.location.pathname + window.location.hash.split('?')[0]);
+      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
     });
+
+    history.pushState({id: id}, '', '?page=decouvrir&id=' + id);
+
+    // Assurez-vous que le conteneur de détails est marqué comme ouvert si ce n'est pas déjà fait
+    $("#details-container").addClass('open');
   }
 
   let displayCount = 60; // Initialiser le nombre de vignettes à afficher
@@ -253,6 +274,8 @@ function adjustAndSortVignettesData(selectedInsee) {
     const container = $('#vignettes-container');
     const loadMoreBtn = $('#load-more-btn').detach(); // Détacher le bouton temporairement
     container.empty(); // Vider le conteneur
+
+   console.log(displayCount);
     
     const dataToDisplay = data.slice(0, displayCount);
     dataToDisplay.forEach(item => {
@@ -269,8 +292,9 @@ function adjustAndSortVignettesData(selectedInsee) {
           </div>
         `).on('click', () => {
           displayDetails(item.MOTCLES);
-          const newUrl = `#decouvrir?id=${item.MOTCLES}`;
+          const newUrl = `?page=decouvrir&id=${item.MOTCLES}`;
           window.history.pushState({ path: newUrl }, '', newUrl);
+          handleNavigation();
         });
         container.append(vignette);
             // Optionnel : Cacher le bouton si toutes les vignettes sont affichées
@@ -285,23 +309,6 @@ function adjustAndSortVignettesData(selectedInsee) {
         $('#load-more-btn').show();
     }
 
-  }
-
-  // Gestion du changement de hash
-  function handleHashChange() {
-    const id = getIdFromHash();
-    const hashParts = window.location.hash.split('?');
-    const hash = hashParts[0];
-
-    const activeLink = $(`.nav-link[href="${hash}"]`);
-    activateSectionAndLink(activeLink);
-
-    if (hash === '#decouvrir' && id) {
-      displayVignettes(vignettesData);
-      displayDetails(id);
-    } else if (hash === '#decouvrir') {
-      displayVignettes(vignettesData);
-    }
   }
 
   // Fonction de filtrage des vignettes
@@ -333,22 +340,75 @@ function adjustAndSortVignettesData(selectedInsee) {
   $('#produit-select').on('change', filterVignettes);
   $('#load-more-btn').on('click', filterVignettes);
   $('#insee-select').on('change', adjustAndSortVignettesData);
-  $(window).on('hashchange', handleHashChange);
 
   // Chargement initial des données
-  fetch('BDD_finale.csv')
+ fetch('BDD_finale.csv')
     .then(response => response.text())
     .then(csvText => {
-      Papa.parse(csvText, {
-        header: true,
-        complete: function (results) {
-          vignettesData = results.data;
-          handleHashChange();
-        }
-      });
+        Papa.parse(csvText, {
+            header: true,
+            complete: function (results) {
+                vignettesData = results.data;
+                // Assurez-vous que handleNavigation est appelé après le chargement des données
+                handleNavigation(); // Ceci détermine quoi afficher basé sur l'URL
+            }
+        });
     });
 
-  // Appel initial pour gérer le changement de hash
-  handleHashChange();
+function handleNavigation() {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const page = urlParams.get('page') || 'accueil'; // Fallback sur 'accueil' si aucun paramètre n'est donné
+
+    // Logique pour activer la section correspondante
+    activateSectionAndLink(page);
+
+    // Nouvelle logique pour appeler displayVignettes ou displayDetails en fonction des paramètres de l'URL
+    if (page === 'decouvrir') {
+        const id = urlParams.get('id');
+        if (id) {
+            // Affiche les détails pour un ID spécifique
+            displayDetails(id);
+        } else {
+            // Affiche toutes les vignettes pour la page 'decouvrir'
+            displayVignettes(vignettesData); // Assurez-vous que cette fonction peut gérer vignettesData
+        }
+    }
+    // Ajoutez ici d'autres conditions pour d'autres valeurs de 'page' si nécessaire
+}
+
+function handlePopState(event) {
+  // Ferme le conteneur de détails si ouvert
+  var detailsContainer = $("#details-container");
+  if (detailsContainer.hasClass('open')) {
+      detailsContainer.removeClass('open');
+  }
+
+  // Gérer la redirection ou l'affichage basé sur l'URL après fermeture du conteneur de détails
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const page = urlParams.get('page');
+
+  if (page === 'decouvrir') {
+      // Supposant que vous avez une fonction pour afficher la page "découvrir"
+      displayVignettes(vignettesData); // Ou toute autre logique appropriée
+  } else {
+      // Gérer d'autres cas ou rediriger vers la page par défaut
+      // activateSectionAndLink('accueil'); par exemple
+  }
+}
+
+
+
+    handleNavigation(); // Gère le chargement initial basé sur l'URL actuelle
+
+    // Écouteur pour les changements d'état de l'historique
+    window.addEventListener('popstate', handleNavigation);
+
+    window.addEventListener('popstate', function(event) {
+      // Gère le changement d'état ici
+      handlePopState(event);
+  });
+    
   
 });
