@@ -438,5 +438,12 @@ function handlePopState(event) {
         detailsContainer.classList.remove('open');
     }
   }
+
+  var sc = document.getElementById('sans_collectivite');
+
+  sc.addEventListener('click', function() {
+    history.pushState({page: 'decouvrir'}, '', '?page=decouvrir');
+    handleNavigation();
+  });
     
 });
