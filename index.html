@@ -23,16 +23,6 @@
 
     gtag('config', 'G-0LQ7GD27TM');
     </script>
-    <script>
-        window.onload = function() {
-          // Vérifie si l'URL ne contient pas déjà des paramètres de recherche 'page'
-          const searchParams = new URLSearchParams(window.location.search);
-          if (!searchParams.has('page')) {
-            // Redirige vers la même URL avec le paramètre de recherche pour la page d'accueil
-            window.location.search = '?page=accueil';
-          }
-        };
-    </script>
 </head>
 <body>
     <div class="container">
@@ -51,10 +41,11 @@
                 <h1 class="titreBP">BIBLIOTHÈQUE DE BONNES PRATIQUES</h1>
                 <div class="green_div_column">
                     <div class="accueil_text">
-                    <h2>La première banque d'initiatives innovantes portées par les collectivités de France et à l'étranger</h2>
+                    <div id="accueil_prem"><img src="www/webpp/image1.svg" alt="icon-BP"><h2>La première banque d'initiatives <span id="accueil_innov">innovantes</span> portées par les collectivités de France et à l'étranger</h2></div>
                     <h2 id="CCBP">+ de 700 Bonnes Pratiques</h2>
                 <label for="insee-select">Saisir mon territoire</label>
                 <select id="insee-select" name="insee">
+                  <option value="" disabled selected> Choisir son territoire</option>
                     <!-- Les options seront ajoutées dynamiquement ici -->
                 </select>
                 <p id="select_reason" class="BP_caption">Pour une sélection de bonnes pratiques adaptées à mon contexte local </p>

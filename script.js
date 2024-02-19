@@ -145,8 +145,8 @@ function adjustAndSortVignettesData(selectedInsee) {
   // Afficher le tableau après le tri pour vérification
   console.log(vignettesData);
   displayVignettes(vignettesData);
-  window.location.hash = '#decouvrir';
-  history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+  // window.location.hash = '#decouvrir';
+  history.pushState({page: 'decouvrir'}, '', '?page=decouvrir');
   handleNavigation();
 
 }
@@ -253,14 +253,17 @@ function adjustAndSortVignettesData(selectedInsee) {
 
     $('.close-btn').on('click', function () {
       detailsContainer.removeClass('open');
-      history.pushState({page: '?page=decouvrir'}, '', '?page=decouvrir');
+      history.pushState({page: '?decouvrir'}, '', '?page=decouvrir');
       handleNavigation();
     });
-
-    history.pushState({id: id}, '', '?page=decouvrir&id=' + id);
+    
+    history.pushState({page: 'decouvrir', id: id}, '', '?page=decouvrir&id=' + id);
 
     // Assurez-vous que le conteneur de détails est marqué comme ouvert si ce n'est pas déjà fait
     $("#details-container").addClass('open');
+    var stateObj = { page: "decouvrir" };
+    history.pushState(stateObj, '', '?page=decouvrir');
+    history.pushState({page: 'decouvrir', id: id}, '', '?page=decouvrir&id=' + id);
   }
 
   let displayCount = 60; // Initialiser le nombre de vignettes à afficher
@@ -325,7 +328,10 @@ function adjustAndSortVignettesData(selectedInsee) {
               item.INTITULE?.toLowerCase().includes(query) ||
               item.SYNONYMES1?.toLowerCase().includes(query) ||
               item.SYNONYMES2?.toLowerCase().includes(query) ||
-              item.SYNONYMES3?.toLowerCase().includes(query)) &&
+              item.SYNONYMES3?.toLowerCase().includes(query) ||
+              item.DESCRIPTION1?.toLowerCase().includes(query) ||
+              item.DESCRIPTION2?.toLowerCase().includes(query) ||
+              item.DESCRIPTION3?.toLowerCase().includes(query)) &&
              (item.STRATE === strate || strate === "") &&
              (item.DEP_NOM === depnom || depnom === "") &&
              themaMatch;
@@ -366,23 +372,19 @@ function handleNavigation() {
     // Nouvelle logique pour appeler displayVignettes ou displayDetails en fonction des paramètres de l'URL
     if (page === 'decouvrir') {
         const id = urlParams.get('id');
+        filterVignettes();
         if (id) {
             // Affiche les détails pour un ID spécifique
             displayDetails(id);
-        } else {
-            // Affiche toutes les vignettes pour la page 'decouvrir'
-            displayVignettes(vignettesData); // Assurez-vous que cette fonction peut gérer vignettesData
         }
+
     }
     // Ajoutez ici d'autres conditions pour d'autres valeurs de 'page' si nécessaire
 }
 
 function handlePopState(event) {
   // Ferme le conteneur de détails si ouvert
-  var detailsContainer = $("#details-container");
-  if (detailsContainer.hasClass('open')) {
-      detailsContainer.removeClass('open');
-  }
+
 
   // Gérer la redirection ou l'affichage basé sur l'URL après fermeture du conteneur de détails
   const queryString = window.location.search;
@@ -400,15 +402,41 @@ function handlePopState(event) {
 
 
 
-    handleNavigation(); // Gère le chargement initial basé sur l'URL actuelle
+
 
     // Écouteur pour les changements d'état de l'historique
-    window.addEventListener('popstate', handleNavigation);
-
     window.addEventListener('popstate', function(event) {
       // Gère le changement d'état ici
-      handlePopState(event);
+      if (event.state) {
+        // Utilisez l'objet état de event.state pour restaurer l'état de la page
+        console.log("État de page :", event.state);
+        recover();
+      }
+
+      handleNavigation(); // Gère le chargement initial basé sur l'URL actuelle
+
+
   });
+
+  function recover() {
+    var detailsContainer = document.querySelector('#details-container');
+
+    if (!detailsContainer) {
+        return; // Sortie précoce si l'élément n'existe pas
+    }
+
+    // Obtenez l'URL actuelle
+    var url = window.location.href;
+
+    // Vérifiez si l'URL contient un identifiant (id)
+    var hasId = url.includes('id=');
+
+    // Ajoutez ou enlevez la classe open basé sur la présence de l'id
+    if (hasId) {
+        detailsContainer.classList.add('open');
+    } else {
+        detailsContainer.classList.remove('open');
+    }
+  }
     
-  
 });
