@@ -29,6 +29,7 @@ div#accueil {
 input#insee-select-selectized::placeholder {
     color: white;
     font-weight: 900;
+    opacity: 1;
 }
 
 div#accueil_prem {
@@ -710,6 +711,8 @@ input#search-input {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
+    width: 8vi!important;
+    padding: 1vi;
 }
 
 .ombre.carre-thematique {
