@@ -945,8 +945,8 @@ button#load-more-btn:hover {
     h1.titreBP {
         height: 64px;
         margin: 8px;
-        font-size: 24px;
-        width: calc(100vw - 144px);
+        font-size: 22px;
+        width: calc(100vw - 96px);
     }
 
     .BP_page_content {
