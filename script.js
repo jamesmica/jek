@@ -253,31 +253,25 @@ function adjustAndSortVignettesData(selectedInsee) {
     `;
     detailsContainer.html(detailsMarkup).addClass('open');
 
-    // Assurez-vous d'inclure les bibliothèques Chart.js et PapaParse dans votre HTML
+    $('.close-btn').on('click', function () {
+      detailsContainer.removeClass('open');
+      history.pushState({page: '?decouvrir'}, '', '?page=decouvrir');
+      handleNavigation();
+    });
+    
+    history.pushState({page: 'decouvrir', id: id}, '', '?page=decouvrir&id=' + id);
 
-// Fonction pour lire le fichier CSV et créer le graphique
-function createChartFromCSV(csvFilePath, targetId) {
-  
-  var oldcanv = document.getElementById('myChart');
-  let context = oldcanv.getContext('2d');
-  context.clearRect(0, 0, oldcanv.width, oldcanv.height);
+    // Assurez-vous que le conteneur de détails est marqué comme ouvert si ce n'est pas déjà fait
+    $("#details-container").addClass('open');
+    var stateObj = { page: "decouvrir" };
+    history.pushState(stateObj, '', '?page=decouvrir');
+    history.pushState({page: 'decouvrir', id: id}, '', '?page=decouvrir&id=' + id);
 
-  Papa.parse(csvFilePath, {
-    download: true,
-    header: true, // Indique que le fichier CSV a une ligne d'en-tête
-    dynamicTyping: true, // Convertit automatiquement les valeurs en nombres si possible
-    complete: function(results) {
-      // Extraire les données pour chaque colonne
-      const labels = ['Essaimable', 'Économique', 'Facile à organiser', 'Valorisable', 'Original', 'Innovant'];
-      const filteredData = results.data.find(row => row.MOTCLES === targetId);
-
-      const data = labels.map(label => filteredData[label]);
-
-      // Créer les données pour Chart.js
-      const chartData = {
-        labels: labels,
-        datasets: [{
+    const chartData = {
+      labels: ['Essaimable', 'Économique', 'Facile à organiser', 'Innovant', 'Original', 'Valorisable'],
+      datasets: [{
           label: 'Évaluation',
+          data: [details.Essaimable, details.Économique, details.Facile, details.Innovant, details.Original, details.Valorisable],
           backgroundColor: [
             '#f9b832',
             '#eb2c30',
@@ -294,67 +288,45 @@ function createChartFromCSV(csvFilePath, targetId) {
             '#1db5c5',
             '#5c368d'
           ],
-          borderWidth: 1,
-          data: data,
-        }]
-      };
-
-      // Configuration du graphique
-// Configuration du graphique
-      const config = {
-        type: 'bar', // Type de graphique
-        data: chartData,
-        options: {
-          indexAxis: 'y',
-          scales: {
-            y: {
-              beginAtZero: true,
-              grid: {
-                display: false // Cela enlèvera les lignes de la grille horizontale
-              }
-            },
-            x: {
-              // Ici, vous pouvez personnaliser les étiquettes des catégories
-              grid: {
-                display: true // Cela enlèvera les lignes de la grille verticale, si souhaité
-              }
+          borderWidth: 1
+      }]
+  };
+  
+  const config = {
+      type: 'bar',
+      data: chartData,
+      options: {
+        indexAxis: 'y',
+        scales: {
+          y: {
+            beginAtZero: true,
+            grid: {
+              display: false // Cela enlèvera les lignes de la grille horizontale
             }
           },
-          plugins: {
-            legend: {
-              display: false // Cela supprimera la légende
-            }
+          x: {
+            // Ici, vous pouvez personnaliser les étiquettes des catégories
+            grid: {
+              display: true // Cela enlèvera les lignes de la grille verticale, si souhaité
+            },
+            max: 10
+          }
+        },
+        plugins: {
+          legend: {
+            display: false // Cela supprimera la légende
           }
         }
-      };
+      }
+  };
+  
+  // Initialisez le graphique en utilisant l'élément canvas
+  const myChart = new Chart(
+      document.getElementById('myChart'),
+      config
+  );
 
 
-      // Sélectionner l'élément canvas dans le HTML
-      const ctx = document.getElementById('myChart').getContext('2d');
-      
-      // Créer le graphique
-      new Chart(ctx, config);
-    }
-  });
-}
-
-// Appel de la fonction avec le chemin du fichier CSV
-createChartFromCSV('BDD_finale.csv',id);
-
-
-    $('.close-btn').on('click', function () {
-      detailsContainer.removeClass('open');
-      history.pushState({page: '?decouvrir'}, '', '?page=decouvrir');
-      handleNavigation();
-    });
-    
-    history.pushState({page: 'decouvrir', id: id}, '', '?page=decouvrir&id=' + id);
-
-    // Assurez-vous que le conteneur de détails est marqué comme ouvert si ce n'est pas déjà fait
-    $("#details-container").addClass('open');
-    var stateObj = { page: "decouvrir" };
-    history.pushState(stateObj, '', '?page=decouvrir');
-    history.pushState({page: 'decouvrir', id: id}, '', '?page=decouvrir&id=' + id);
   }
 
   let displayCount = 60; // Initialiser le nombre de vignettes à afficher
@@ -478,28 +450,6 @@ function handleNavigation() {
     }
     // Ajoutez ici d'autres conditions pour d'autres valeurs de 'page' si nécessaire
 }
-
-function handlePopState(event) {
-  // Ferme le conteneur de détails si ouvert
-
-
-  // Gérer la redirection ou l'affichage basé sur l'URL après fermeture du conteneur de détails
-  const queryString = window.location.search;
-  const urlParams = new URLSearchParams(queryString);
-  const page = urlParams.get('page');
-
-  if (page === 'decouvrir') {
-      // Supposant que vous avez une fonction pour afficher la page "découvrir"
-      displayVignettes(vignettesData); // Ou toute autre logique appropriée
-  } else {
-      // Gérer d'autres cas ou rediriger vers la page par défaut
-      // activateSectionAndLink('accueil'); par exemple
-  }
-}
-
-
-
-
 
     // Écouteur pour les changements d'état de l'historique
     window.addEventListener('popstate', function(event) {
