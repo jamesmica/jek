@@ -35,7 +35,6 @@ div#accueil_prem {
     display: flex;
     align-items: center;
     margin: 64px;
-    margin-top: -160px;
 }
 
 #accueil_prem h2 {
@@ -314,6 +313,11 @@ h1.titreBP {
     font-size: 12px;
 }
 
+#accueil .BP_caption {
+    color: #969995;
+    font-size: 14px;
+}
+
 .BP_text {
     padding: 8px;
 }
@@ -530,6 +534,21 @@ button#reset-button:active {
     background: white;
 }
 
+#accueil .selectize-dropdown.multi {
+    width: 360px !important;
+    height: 360px;
+}
+
+#accueil .selectize-dropdown-content {
+    width: auto;
+    max-height: 200px !important;
+    height: 182px;
+}
+
+#accueil .selectize-dropdown.single {
+    height: 200px;
+}
+
 #decouvrir .selectize-input.items.full.has-options {
     width: 160px !important;
     max-width: 160px !important;
@@ -586,7 +605,7 @@ button#reset-button:active {
 }
 
 .selectize-dropdown-content {
-    padding: 8px 8px !important;
+    padding: 8px 8px 8px 8px !important;
     text-align: left;
     text-wrap: nowrap;
 }
@@ -617,7 +636,7 @@ button#reset-button:active {
 }
 
 #accueil .selectize-dropdown-content div {
-    width: 400px !important;
+    width: 382px !important;
 }
 
 #accueil .selectize-dropdown.single {
@@ -643,7 +662,7 @@ input#search-input {
     text-align: center;
 }
 
-div.green_div_column {
+#thematiques div.green_div_column, #decouvrir div.green_div_column {
     margin: auto;
     text-align: center;
     background-color: #E5EFD1;
@@ -653,7 +672,6 @@ div.green_div_column {
     flex-direction: column;
     align-items: center;
     margin-left: 0px;
-    overflow-y: auto;
     overflow-x: hidden;
     justify-content: space-around;
 }
@@ -662,14 +680,14 @@ div.green_div_column {
     margin: auto;
     text-align: center;
     background-color: #E5EFD1;
-    width: calc(100vw - 80px);
+    /* width: calc(100vw - 80px); */
+    margin-left: 0px;
     height: 80vh;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     align-items: center;
-    margin-left: 0px;
-    overflow-y: auto;
-    overflow-x: hidden;
+    /* margin-left: 0px; */
+    /* overflow-x: hidden; */
     justify-content: space-around;
 }
 
