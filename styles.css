@@ -609,6 +609,7 @@ button#reset-button:active {
     height: 18px;
     margin-bottom: 16px;
     margin-right: 16px;
+    width: 160px !important;
 }
 
 #accueil .selectize-dropdown-content {
