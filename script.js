@@ -245,11 +245,102 @@ function adjustAndSortVignettesData(selectedInsee) {
       <p>${details.CONTACT}</p>
       <a href="${details.LINK}">${details.LINK}</a>
       </span>
-      <img src="www/graph/${details.GRAPH}" class="BP_page_graph" alt="${details.INTITULE}" />
+      <div id="div_myChart" style="width: 360px; height: 200px;">
+      <canvas id="myChart" width="360" height="200"></canvas>
+      </div>
       </div>
       </div>
     `;
     detailsContainer.html(detailsMarkup).addClass('open');
+
+    // Assurez-vous d'inclure les bibliothèques Chart.js et PapaParse dans votre HTML
+
+// Fonction pour lire le fichier CSV et créer le graphique
+function createChartFromCSV(csvFilePath, targetId) {
+  
+  var oldcanv = document.getElementById('myChart');
+  let context = oldcanv.getContext('2d');
+  context.clearRect(0, 0, oldcanv.width, oldcanv.height);
+
+  Papa.parse(csvFilePath, {
+    download: true,
+    header: true, // Indique que le fichier CSV a une ligne d'en-tête
+    dynamicTyping: true, // Convertit automatiquement les valeurs en nombres si possible
+    complete: function(results) {
+      // Extraire les données pour chaque colonne
+      const labels = ['Essaimable', 'Économique', 'Facile à organiser', 'Valorisable', 'Original', 'Innovant'];
+      const filteredData = results.data.find(row => row.MOTCLES === targetId);
+
+      const data = labels.map(label => filteredData[label]);
+
+      // Créer les données pour Chart.js
+      const chartData = {
+        labels: labels,
+        datasets: [{
+          label: 'Évaluation',
+          backgroundColor: [
+            '#f9b832',
+            '#eb2c30',
+            '#f38331',
+            '#96d322',
+            '#1db5c5',
+            '#5c368d'
+          ],
+          borderColor: [
+            '#f9b832',
+            '#eb2c30',
+            '#f38331',
+            '#96d322',
+            '#1db5c5',
+            '#5c368d'
+          ],
+          borderWidth: 1,
+          data: data,
+        }]
+      };
+
+      // Configuration du graphique
+// Configuration du graphique
+      const config = {
+        type: 'bar', // Type de graphique
+        data: chartData,
+        options: {
+          indexAxis: 'y',
+          scales: {
+            y: {
+              beginAtZero: true,
+              grid: {
+                display: false // Cela enlèvera les lignes de la grille horizontale
+              }
+            },
+            x: {
+              // Ici, vous pouvez personnaliser les étiquettes des catégories
+              grid: {
+                display: true // Cela enlèvera les lignes de la grille verticale, si souhaité
+              }
+            }
+          },
+          plugins: {
+            legend: {
+              display: false // Cela supprimera la légende
+            }
+          }
+        }
+      };
+
+
+      // Sélectionner l'élément canvas dans le HTML
+      const ctx = document.getElementById('myChart').getContext('2d');
+      
+      // Créer le graphique
+      new Chart(ctx, config);
+    }
+  });
+}
+
+// Appel de la fonction avec le chemin du fichier CSV
+createChartFromCSV('BDD_finale.csv',id);
+
 
     $('.close-btn').on('click', function () {
       detailsContainer.removeClass('open');
@@ -302,14 +393,20 @@ function adjustAndSortVignettesData(selectedInsee) {
         container.append(vignette);
             // Optionnel : Cacher le bouton si toutes les vignettes sont affichées
 
-      }
-    });          
+      } 
+    });
+
+
 
     container.append(loadMoreBtn); // Remettre le bouton dans le conteneur
     if (displayCount >= $(data).length || ($(data).length < 60 || displayCount > 659)) {
         $('#load-more-btn').hide();
     } else {
         $('#load-more-btn').show();
+    }
+
+    if ($(data).length <1) {
+        container.append('<p>Aucune bonne pratique ne correspond à votre recherche.</p>')
     }
 
   }

@@ -789,6 +789,11 @@ button#load-more-btn:hover {
     opacity: 0.7;
 }
 
+.item {
+	white-space: nowrap;
+	font-size: 12px;
+}
+
 
 
 @media screen and (max-width: 884px) {
