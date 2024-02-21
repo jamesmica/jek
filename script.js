@@ -238,7 +238,7 @@ function adjustAndSortVignettesData(selectedInsee) {
       <h4>${details.PAYS} | ${details.TER} (${parseInt(details.POP).toLocaleString()} hab.) | ${details.ANNEE} </h4>
       <div class="BP_page_content">
       <div class="BP_page_imgdownload">
-      <img src="www/webpv/${details.WEBP}" class="BP_page_img" alt="${details.INTITULE}" />
+      <img src="www/webpv/${details.WEBP}" class="BP_page_img" alt="${details.INTITULE}" loading="lazy"/>
       <a href="www/pdf/Bonnes Pratiques_Partie${details.N}.pdf" download="${details.INTITULE}">Télécharger en PDF<i class="fa-solid fa-download"></i></a>
       </div>
       <span class="BP_page_description">
@@ -366,7 +366,7 @@ function adjustAndSortVignettesData(selectedInsee) {
         const vignette = $(`
           <div class="vignette">
             <div class="details-link" tabindex="0">
-              <img src="www/webp/${item.WEBP}" alt="${item.INTITULE}"/>
+              <img src="www/webp/${item.WEBP}" alt="${item.INTITULE}" loading="lazy"/>
               <div class="BP_text">
                 <h2 class="BP_title">${item.INTITULE} - ${item.TER} (${item.DEP_NOM})</h2>
                 <p class="BP_caption">${item.DESCRIPTION1}</p>
