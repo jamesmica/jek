@@ -285,7 +285,7 @@ function adjustAndSortVignettesData(selectedInsee) {
     history.pushState({page: 'decouvrir', id: id}, '', '?page=decouvrir&id=' + id);
 
     const chartData = {
-      labels: ['Essaimable', 'Économique', 'Facile à organiser', 'Innovant', 'Original', 'Valorisable'],
+      labels: ['Essaimable', 'Économique', 'Facile', 'Innovant', 'Original', 'Valorisable'],
       datasets: [{
           label: 'Évaluation',
           data: [details.Essaimable, details.Économique, details.Facile, details.Innovant, details.Original, details.Valorisable],
