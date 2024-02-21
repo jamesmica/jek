@@ -207,6 +207,15 @@ function adjustAndSortVignettesData(selectedInsee) {
   // Fonction pour afficher les détails d'une vignette
   function displayDetails(id) {
     const details = vignettesData.find(item => item.MOTCLES === id);
+    // Modification du titre de la page
+    document.title = "Plateforme Bonnes Pratiques - " + `${details.INTITULE}`;
+
+    // Modification de la balise meta description
+    var metaDescription = document.querySelector('meta[name="description"]');
+    var metaText = `${details.DESCRIPTION1}`;
+    if (metaDescription) {
+        metaDescription.setAttribute('content', metaText);
+    }
     const detailsContainer = $('#details-container');
     if (!details) {
       detailsContainer.html('Détail non trouvé.');
@@ -254,6 +263,14 @@ function adjustAndSortVignettesData(selectedInsee) {
     detailsContainer.html(detailsMarkup).addClass('open');
 
     $('.close-btn').on('click', function () {
+      // Modification du titre de la page
+      document.title = "Plateforme Bonnes Pratiques";
+
+      // Modification de la balise meta description
+      var metaDescription = document.querySelector('meta[name="description"]');
+      if (metaDescription) {
+          metaDescription.setAttribute('content', 'Aider les collectivités territoriales à orienter leurs politiques publiques à travers un répertoire complet de bonnes pratiques en France et en UE.');
+      }
       detailsContainer.removeClass('open');
       history.pushState({page: '?decouvrir'}, '', '?page=decouvrir');
       handleNavigation();

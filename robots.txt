@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: /.vscode/
+Disallow: /node_modules/
+Disallow: /public/
+Disallow: /www/
+Disallow: /BDD_finale.csv
+Disallow: /CNAME
+Disallow: /pertinence.csv
+Disallow: /pertinence.json
+Disallow: /package.json
+Disallow: /package-lock.json
+
+Sitemap: https://bonnes-pratiques.ithea-conseil.fr/sitemap.xml
