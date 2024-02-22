@@ -207,15 +207,13 @@ function adjustAndSortVignettesData(selectedInsee) {
   // Fonction pour afficher les détails d'une vignette
   function displayDetails(id) {
     const details = vignettesData.find(item => item.MOTCLES === id);
-    // Modification du titre de la page
-    document.title = "Plateforme Bonnes Pratiques - " + `${details.INTITULE}`;
+    document.title = "Plateforme Bonnes Pratiques - " + details.INTITULE;
+    document.querySelector('meta[name="description"]').setAttribute("content", details.DESCRIPTION1);
 
-    // Modification de la balise meta description
-    var metaDescription = document.querySelector('meta[name="description"]');
-    var metaText = `${details.DESCRIPTION1}`;
-    if (metaDescription) {
-        metaDescription.setAttribute('content', metaText);
-    }
+    // Ajouter/modifier les balises Open Graph si nécessaire
+    document.querySelector('meta[property="og:title"]').setAttribute("content", "Plateforme Bonnes Pratiques - " + details.INTITULE);
+    document.querySelector('meta[property="og:description"]').setAttribute("content", details.DESCRIPTION1);
+
     const detailsContainer = $('#details-container');
     if (!details) {
       detailsContainer.html('Détail non trouvé.');
