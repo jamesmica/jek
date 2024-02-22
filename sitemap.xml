@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
       <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=accueil</loc>
@@ -19,7 +19,7 @@
       <priority>0.8</priority>
    </url>
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Habitat_participatif</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=habitat-participatif</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -40,21 +40,21 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=coloc_seniors</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=coloc-seniors</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=marche_ccas</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=marche-ccas</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=kit_nouveaux</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=kit-nouveaux</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -89,7 +89,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bons_plans</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bons-plans</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -117,7 +117,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=citad_elles</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=citad-elles</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -131,7 +131,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=femmes_hommes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=femmes-hommes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -173,7 +173,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=nouveaux_actifs</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=nouveaux-actifs</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -187,42 +187,42 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cafe_creation</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cafe-creation</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=economie_circulaire</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=economie-circulaire</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=campus_rural</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=campus-rural</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bistrot_pradeau</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bistrot-pradeau</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reconquete_agricole</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reconquete-agricole</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=rest_o</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=rest-o</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -243,7 +243,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=hub_enerco</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=hub-enerco</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -257,14 +257,14 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=carte_fidelite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=carte-fidelite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tiers_lieu</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tiers-lieu</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -285,7 +285,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=parcours_de_vie</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=parcours-de-vie</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -320,21 +320,21 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pump_track</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pump-track</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=radio_sommieres</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=radio-sommieres</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cafes_itinerants</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cafes-itinerants</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -369,7 +369,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=village_jardin</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=village-jardin</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -411,14 +411,14 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=co_voiturage</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=co-voiturage</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pain_communal</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pain-communal</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -446,7 +446,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pain_communal</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pain-communal</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -474,7 +474,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=non_concurrentielles</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=non-concurrentielles</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -600,14 +600,14 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Hirondelles</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=hirondelles</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Brigade</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=brigade</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -642,7 +642,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=anti_dechets</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=anti-dechets</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -663,7 +663,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=commande_publique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=commande-publique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -698,7 +698,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=defi_climatique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=defi-climatique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -719,112 +719,112 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=video_maternelle</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=video-maternelle</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=photographie_exposition_maternelle</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=photographie-exposition-maternelle</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Maternelle_assistante_metier</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maternelle-assistante-metier</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=info_roule_route</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=info-roule-route</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=jeunesse_rock_fete_musique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=jeunesse-rock-fete-musique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pÃ´le_enfance</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pã´le-enfance</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=monoparent_monoparentalite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=monoparent-monoparentalite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Cent_fleurs_offrir</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cent-fleurs-offrir</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=restaurant_scolaire_responsable</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=restaurant-scolaire-responsable</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=energie_positive_collectivite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=energie-positive-collectivite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cafe_associatif</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cafe-associatif</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=faire_compagnie</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=faire-compagnie</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=parentalite_accueil_ressource</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=parentalite-accueil-ressource</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=covoiturage_senior_plateforme</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=covoiturage-senior-plateforme</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ville_chÃ´mage_conciergerie</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ville-chã´mage-conciergerie</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=vieillissement_ecole</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=vieillissement-ecole</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -838,812 +838,812 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=environnement_ecole_nature</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=environnement-ecole-nature</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=participation_citoyenne</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=participation-citoyenne</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=chantier_ouvert_participatif</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=chantier-ouvert-participatif</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ecran_sensibilisation_parents_enfants</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ecran-sensibilisation-parents-enfants</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=patrimoine_monuments_qrcode</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=patrimoine-monuments-qrcode</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=citoyen_participation_journee</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=citoyen-participation-journee</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cloud_donnees_prive</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cloud-donnees-prive</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=village_vieillesse_centre</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=village-vieillesse-centre</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=police_violence_theatre</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=police-violence-theatre</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=territoire_ccas_dynamisme</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=territoire-ccas-dynamisme</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=creche_prison_garde</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=creche-prison-garde</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=capteur_fuite_eau</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=capteur-fuite-eau</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=preau_champetre_fete</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=preau-champetre-fete</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=poulailler_poule</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=poulailler-poule</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tombe_cimetiere</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tombe-cimetiere</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=art_depression_bien_etre</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=art-depression-bien-etre</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=epicerie_solidaire_gratuit</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=epicerie-solidaire-gratuit</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=territoire_portrait_donnees</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=territoire-portrait-donnees</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=campus_rural</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=campus-rural</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=projet_citoyen</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=projet-citoyen</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=velo_gratuit_jeune_etudiant</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=velo-gratuit-jeune-etudiant</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=couleur_peinture</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=couleur-peinture</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=aeration_capteur_co2</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=aeration-capteur-co2</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=audit_transparence_citoyen</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=audit-transparence-citoyen</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=nutrition_guide</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=nutrition-guide</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=commissariat_police_population</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=commissariat-police-population</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=minimum_argent</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=minimum-argent</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=s_cool_bus</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=s-cool-bus</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=logement_surface</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=logement-surface</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=patrimoine_architecture</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=patrimoine-architecture</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=service_public_camping</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=service-public-camping</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=logiciel_libre</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=logiciel-libre</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=service_isolement</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=service-isolement</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=potager_urbain</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=potager-urbain</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ecole_parent_langue</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ecole-parent-langue</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=habitat_logement</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=habitat-logement</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=territoire_cooperation_jeunesse</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=territoire-cooperation-jeunesse</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=eau_reutilisation_laver_rue</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=eau-reutilisation-laver-rue</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=compost_borne</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=compost-borne</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=video_question_jeunes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=video-question-jeunes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=recuperation_design</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=recuperation-design</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mediation_numerique_fracture</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mediation-numerique-fracture</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tricot_urbain</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tricot-urbain</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=boutique_argent</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=boutique-argent</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=creche_garde</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=creche-garde</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=biosource_materiaux</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=biosource-materiaux</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=energie_taxe_renovation</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=energie-taxe-renovation</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=interactive_cimetiere_borne</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=interactive-cimetiere-borne</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=numerique_technologie</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=numerique-technologie</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=dispositif_argent_poche</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=dispositif-argent-poche</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tarif_age_senior</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tarif-age-senior</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=forum_acces_droit</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=forum-acces-droit</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=entraide_solidarite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=entraide-solidarite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=assistance_reseau</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=assistance-reseau</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison_service_public</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison-service-public</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison_parent_parentalite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison-parent-parentalite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=proximite_maison</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=proximite-maison</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=transport_senior</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=transport-senior</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=dimanches_bonheur</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=dimanches-bonheur</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=borne_migrant_sans_abris</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=borne-migrant-sans-abris</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=locaux_moteurs</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=locaux-moteurs</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=credit_personnel</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=credit-personnel</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=action_departmental_metier</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=action-departmental-metier</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=creation_artistique_metier</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=creation-artistique-metier</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=soin_aines_vieux</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=soin-aines-vieux</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=emploi_aide_domicile</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=emploi-aide-domicile</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=metier_aide_atelier</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=metier-aide-atelier</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=assistante_maternelle_metier</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=assistante-maternelle-metier</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=coulisse_femme_egalite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=coulisse-femme-egalite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=metier_autonomie_plateforme</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=metier-autonomie-plateforme</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=animateur_jeunesse_metier</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=animateur-jeunesse-metier</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=departement_assistant</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=departement-assistant</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=communication_innovant_recrutement</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=communication-innovant-recrutement</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=creche_garde</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=creche-garde</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=territoire_non_recours_droit</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=territoire-non-recours-droit</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tiers_lieux_l_ecrin</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tiers-lieux-l-ecrin</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mobilite_alternative</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mobilite-alternative</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Une_journee_citoyenne</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=une-journee-citoyenne</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Un_agent_d_animation_aupres_des_personnes_isolees</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=un-agent-d-animation-aupres-des-personnes-isolees</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Reenchanter_l_animation</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reenchanter-l-animation</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Un_pÃ´le_de_services_de_proximite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=un-pã´le-de-services-de-proximite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=garde_parentalite_famille</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=garde-parentalite-famille</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=violence_conjugale_logement</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=violence-conjugale-logement</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bus_probleme_psy</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bus-probleme-psy</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Ateliers_ecritures</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ateliers-ecritures</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=olympiade_sport_senior</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=olympiade-sport-senior</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Vestiaire_solidaire</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=vestiaire-solidaire</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Mutuelle_communale</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mutuelle-communale</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Aide_aux_transports_scolaires</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=aide-aux-transports-scolaires</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Le_bus_Mobil_sante</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=le-bus-mobil-sante</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Permanence_juridique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=permanence-juridique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Fiche_info_secours</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=fiche-info-secours</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Marchons_dans_nos_campagnes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=marchons-dans-nos-campagnes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Cheques_vacances</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cheques-vacances</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Espaces_sans_tabac</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=espaces-sans-tabac</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Atelier_Memoire</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=atelier-memoire</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Emballage_violentometre</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=emballage-violentometre</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Collecte_contre_la_precarite_hygienique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=collecte-contre-la-precarite-hygienique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Aide_aux_devoirs_gratuite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=aide-aux-devoirs-gratuite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=BAFA_contre_benevolat</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bafa-contre-benevolat</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=projet_art</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=projet-art</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Tarifs_differencies_et_degressifs_pour_les_parkings</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tarifs-differencies-et-degressifs-pour-les-parkings</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Les_jardins_partages</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=les-jardins-partages</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Conseil_pour_les_droits_et_devoirs_des_familles_(CDDF)</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=conseil-pour-les-droits-et-devoirs-des-familles-(cddf)</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=informations_application_numerique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=informations-application-numerique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Une_ecole_dans_un_EHPAD</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=une-ecole-dans-un-ehpad</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ambassadeur_ecologie_ecole</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ambassadeur-ecologie-ecole</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=recyclage_stade_materiaux</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=recyclage-stade-materiaux</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Ateliers_virtuels_contre_l_isolement</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ateliers-virtuels-contre-l-isolement</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reunion_mort_cimetiere</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reunion-mort-cimetiere</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Moustique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=moustique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=scenario_ski</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=scenario-ski</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Commune_vote_en_ligne</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=commune-vote-en-ligne</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=eau_public</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=eau-public</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=formation_deces_reunion_elus</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=formation-deces-reunion-elus</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bons_alimentaires</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bons-alimentaires</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -1657,7 +1657,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=presque_Zero_Dechet</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=presque-zero-dechet</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -1678,21 +1678,21 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=camping_base_de_loisirs</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=camping-base-de-loisirs</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=studio_enregistrement</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=studio-enregistrement</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bourse_permis</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bourse-permis</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -1713,21 +1713,21 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=employe_municipal</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=employe-municipal</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=protection_sociale</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=protection-sociale</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=binÃ´me_21</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=binã´me-21</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -1755,49 +1755,49 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=atelier_du_19</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=atelier-du-19</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=guide_handicap</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=guide-handicap</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Quiquoiquesse</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=quiquoiquesse</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mal_etre</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mal-etre</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tarification_sociale</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tarification-sociale</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=CCAS_fiche_operation</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ccas-fiche-operation</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Josephine</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=josephine</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -1811,28 +1811,28 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=trouble_memoire_bistrot</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=trouble-memoire-bistrot</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Pack_domotique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pack-domotique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Point_jeunes_Seniors</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=point-jeunes-seniors</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Audiocite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=audiocite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -1846,7 +1846,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sciences_comportementales</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sciences-comportementales</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -1909,7 +1909,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bus_senior_numerique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bus-senior-numerique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -1930,14 +1930,14 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=voisins_solidaires</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=voisins-solidaires</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=espace_parentalite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=espace-parentalite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -1951,7 +1951,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=produits_chimiques</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=produits-chimiques</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -1972,49 +1972,49 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=quartiers_propres</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=quartiers-propres</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=green_saturday</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=green-saturday</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tri_ecologie_dechet</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tri-ecologie-dechet</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mutinerie_village</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mutinerie-village</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reseau_de_chaleur</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reseau-de-chaleur</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cantine_scolaire</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cantine-scolaire</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=autonomie_energie</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=autonomie-energie</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2070,7 +2070,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bouteille_reutilisation</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bouteille-reutilisation</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2084,7 +2084,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=chauffeur_bus</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=chauffeur-bus</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2098,7 +2098,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=carto_party</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=carto-party</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2133,21 +2133,21 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=journee_citoyenne</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=journee-citoyenne</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=comite_d_action_juridique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=comite-d-action-juridique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=photovoltaÃ¯que</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=photovoltaã¯que</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2161,14 +2161,14 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=FALC</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=falc</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Dquipe</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=dquipe</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2182,7 +2182,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=marches_publics</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=marches-publics</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2196,126 +2196,126 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=centre_de_loisirs</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=centre-de-loisirs</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=permis_de_louer</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=permis-de-louer</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Dquipe</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=dquipe</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=guichet_renovation</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=guichet-renovation</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=concertation_logements_vacants</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=concertation-logements-vacants</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=journee_immobilier</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=journee-immobilier</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=domotique_Fort_Issy</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=domotique-fort-issy</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=application_optimisation_energetique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=application-optimisation-energetique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bati_agricoles_logements</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bati-agricoles-logements</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=hebergement_urgence</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=hebergement-urgence</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=site_accessibilite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=site-accessibilite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ordonnances_visuelles</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ordonnances-visuelles</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=medecin_soin_concurrence</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=medecin-soin-concurrence</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=atelier_sante_ville</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=atelier-sante-ville</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ambition_medecine_etude_scolarite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ambition-medecine-etude-scolarite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=aire_jeux_inclusive</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=aire-jeux-inclusive</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=centre_municipal_sante</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=centre-municipal-sante</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mediateurs_sante</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mediateurs-sante</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2329,14 +2329,14 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=paradis_cherbourg</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=paradis-cherbourg</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=boite_urgence_information</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=boite-urgence-information</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2350,14 +2350,14 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=laboratoire_silver_economie</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=laboratoire-silver-economie</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=festival_inclusif</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=festival-inclusif</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2371,70 +2371,70 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=budget_participatif</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=budget-participatif</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=strategie_fiscale</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=strategie-fiscale</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=explor_games</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=explor-games</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tourisme_affaires</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tourisme-affaires</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=passeport_touristique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=passeport-touristique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=village_noel</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=village-noel</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=application_tourisme</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=application-tourisme</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tourisme_durable</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tourisme-durable</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=lieux_vie</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=lieux-vie</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=accompagnement_senior</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=accompagnement-senior</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2511,7 +2511,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ateliers_numeriques</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ateliers-numeriques</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2525,49 +2525,49 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=coffre_fort</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=coffre-fort</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Hirondelles_contre_moustiques</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=hirondelles-contre-moustiques</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Eau_AÃ®nes_CCAS_livreurs_seniors</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=eau-aã®nes-ccas-livreurs-seniors</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Affichage_Violences_Femmes_Campagne</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=affichage-violences-femmes-campagne</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Boite_AÃ®nes_Pompiers_Medicaments</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=boite-aã®nes-pompiers-medicaments</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Tournoi_Foot_City_Stade</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tournoi-foot-city-stade</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Chauffage_Urbain_Bois_Gaz</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=chauffage-urbain-bois-gaz</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2581,7 +2581,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Chauffage_Urbain_Bois_Gaz</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=chauffage-urbain-bois-gaz</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2742,7 +2742,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=enfant_scolaire_reussite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=enfant-scolaire-reussite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2777,14 +2777,14 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=observatoire_immobilier_commercial</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=observatoire-immobilier-commercial</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=velos_taxis</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=velos-taxis</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2805,7 +2805,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=s_cool_bus</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=s-cool-bus</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2826,21 +2826,21 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mutualisation_rh</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mutualisation-rh</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=renouvellement_cadres</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=renouvellement-cadres</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=escape_game_donnees</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=escape-game-donnees</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -2854,21 +2854,21 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Tiers_lieu</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tiers-lieu</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=TheÃ¢tre_sensibilisation_aidants</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=theã¢tre-sensibilisation-aidants</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=Participation_citoyennete</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=participation-citoyennete</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -3001,21 +3001,21 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=eau_charte</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=eau-charte</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=air_CO2</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=air-co2</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=arbre_chartre</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=arbre-chartre</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -3050,35 +3050,35 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=volontaires_musees</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=volontaires-musees</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=opportunites_jeunes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=opportunites-jeunes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=participation_musees</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=participation-musees</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=abeilles_etudiants</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=abeilles-etudiants</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bibliotheque_numerique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bibliotheque-numerique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -3092,28 +3092,28 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=surplus_nourriture</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=surplus-nourriture</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=livraison_fragiles</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=livraison-fragiles</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reutilisation_vetements</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reutilisation-vetements</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=passeport_musees</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=passeport-musees</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -3127,21 +3127,21 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=energie_commune</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=energie-commune</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reutilisation_dechets</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reutilisation-dechets</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=produits_bio</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=produits-bio</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -3155,56 +3155,56 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tourisme_accessible</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tourisme-accessible</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=socialisation_parents</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=socialisation-parents</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=conseil_municipal_jeunes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=conseil-municipal-jeunes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sciences_enfants</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sciences-enfants</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mariages_villas</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=mariages-villas</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cantine_locale</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cantine-locale</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=billet_unique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=billet-unique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=nature_accessible</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=nature-accessible</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -3218,35 +3218,35 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ecole_plein_air</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ecole-plein-air</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=soins_centre_commercial</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=soins-centre-commercial</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=distributeurs_tests</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=distributeurs-tests</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=aide_fumeurs</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=aide-fumeurs</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=prix_patrimoine</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=prix-patrimoine</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -3260,21 +3260,21 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sante_itinerante</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sante-itinerante</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=communication_enfants</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=communication-enfants</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=centre_parentalite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=centre-parentalite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -3288,42 +3288,42 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=conferences_parents</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=conferences-parents</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=volontariat_parents</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=volontariat-parents</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=activites_disabilite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=activites-disabilite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cafe_suicides</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cafe-suicides</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=soutien_suicide</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=soutien-suicide</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ecoles_vertes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ecoles-vertes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -3337,7 +3337,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=plateforme_emploi</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=plateforme-emploi</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -3351,182 +3351,182 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=application_sobriete</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=application-sobriete</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bibliotheques_sante</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bibliotheques-sante</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sante_femmes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sante-femmes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=menopause_travail</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=menopause-travail</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=confiance_jeunes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=confiance-jeunes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=dents_sains</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=dents-sains</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=activite_physique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=activite-physique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=accessibilite_sourds</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=accessibilite-sourds</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=lecture_chiens</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=lecture-chiens</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bus_livres</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bus-livres</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=jeunes_aidants</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=jeunes-aidants</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=vaccins_ecole</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=vaccins-ecole</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sante_mentale_professionnels</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sante-mentale-professionnels</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=velo_ecole</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=velo-ecole</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=musique_communication</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=musique-communication</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bus_vaccinations</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bus-vaccinations</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cours_sante</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cours-sante</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=isolement_seniors</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=isolement-seniors</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=femmes_sport</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=femmes-sport</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=recharge_voitures</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=recharge-voitures</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=innovation_formation</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=innovation-formation</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=laine_batiments</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=laine-batiments</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=accueil_mineurs</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=accueil-mineurs</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=eau_gratuite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=eau-gratuite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=eclairage_public</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=eclairage-public</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=panneaux_gratuits</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=panneaux-gratuits</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -3540,14 +3540,14 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=informations_efficience</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=informations-efficience</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=autoproduction_nourriture</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=autoproduction-nourriture</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -3561,189 +3561,189 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=journees_participation</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=journees-participation</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bus_pied</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bus-pied</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=securite_routiere</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=securite-routiere</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=precarite_logement</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=precarite-logement</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=recyclage_construction</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=recyclage-construction</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=magasin_vert</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=magasin-vert</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=compost_quartier</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=compost-quartier</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=developpement_verdure</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=developpement-verdure</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=arbres_naissances</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=arbres-naissances</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=informations_etrangers</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=informations-etrangers</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=entrepreneuriat_femmes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=entrepreneuriat-femmes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=supermarche_pauvres</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=supermarche-pauvres</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=habitation_solidale</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=habitation-solidale</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=defis_collegues</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=defis-collegues</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=actions_durables</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=actions-durables</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=defis_durables</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=defis-durables</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=grains_participation</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=grains-participation</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=jardins_toits</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=jardins-toits</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=meubles_publics</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=meubles-publics</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=competition_ecoles</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=competition-ecoles</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=lundi_hopital</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=lundi-hopital</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=travail_femmes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=travail-femmes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=assistant_fragiles</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=assistant-fragiles</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sport_patrimoine</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sport-patrimoine</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=batiments_virtuels</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=batiments-virtuels</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=batiments_associations</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=batiments-associations</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=banque_temps</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=banque-temps</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -3764,70 +3764,70 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=plateforme_sanitaire_sociale</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=plateforme-sanitaire-sociale</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=service_traduction</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=service-traduction</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=forum_petite_enfance</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=forum-petite-enfance</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=angelo_teleporte</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=angelo-teleporte</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=conseil_jeunes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=conseil-jeunes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=voisins_ecoute</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=voisins-ecoute</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=distribution_petits_dejeuners</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=distribution-petits-dejeuners</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ecole_ehpad</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ecole-ehpad</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reussite_numerique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reussite-numerique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reseau_reagir</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=reseau-reagir</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -3841,511 +3841,511 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=comite_jeunesse</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=comite-jeunesse</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=participation_citoyenne</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=participation-citoyenne</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pass_sante</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pass-sante</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=panier_solidaire</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=panier-solidaire</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tous_mobiles</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=tous-mobiles</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison_jeunes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison-jeunes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=village_intergenerationnel</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=village-intergenerationnel</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=vis_place</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=vis-place</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=zelli_application</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=zelli-application</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=espaces_numeriques</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=espaces-numeriques</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=guichet_unique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=guichet-unique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison_aidants</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison-aidants</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=panneaux_animaux</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=panneaux-animaux</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=internet_solidaire</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=internet-solidaire</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=metiers_mixtes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=metiers-mixtes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison_aines</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison-aines</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=dentiste_association</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=dentiste-association</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=colocation_intergenerationnelle</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=colocation-intergenerationnelle</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pause_aidants</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pause-aidants</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=conseil_mentale</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=conseil-mentale</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=coordination_linguistique</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=coordination-linguistique</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sante_solidarites</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sante-solidarites</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=kit_acces</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=kit-acces</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=prevention_suicide</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=prevention-suicide</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=espace_seniors</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=espace-seniors</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=travailleurs_specialises</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=travailleurs-specialises</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison_familles</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison-familles</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bourse_medecins</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=bourse-medecins</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=caisse_alimentation</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=caisse-alimentation</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=vis_vie</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=vis-vie</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=participative_jeunes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=participative-jeunes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=info_jeunes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=info-jeunes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=copil_jeunes</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=copil-jeunes</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=rallye_citoyen</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=rallye-citoyen</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=rencontre_CCAS</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=rencontre-ccas</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=salon_pe</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=salon-pe</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=nuit_solidarite</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=nuit-solidarite</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=prevention_dentaire</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=prevention-dentaire</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=poste_seniors</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=poste-seniors</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=coupon_sport</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=coupon-sport</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sport_itinerant</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=sport-itinerant</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=spot_emploi</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=spot-emploi</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=incroyable_commerce</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=incroyable-commerce</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cmg_seniors</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cmg-seniors</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cafe_aines</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cafe-aines</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=voies_reservees</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=voies-reservees</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=adultes_sport</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=adultes-sport</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=atelier_aire</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=atelier-aire</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=assemblee_aines</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=assemblee-aines</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=labo_citoyen</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=labo-citoyen</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pole_intergenerationnel</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pole-intergenerationnel</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=fedi_centre</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=fedi-centre</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=chrs_hebergement</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=chrs-hebergement</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cabinet_ephemere</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=cabinet-ephemere</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pole_education</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=pole-education</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=conseil_enfance</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=conseil-enfance</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=equipe_mobile</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=equipe-mobile</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=plateforme_vip</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=plateforme-vip</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison_famille </loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison-famille </loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=singa_accueil</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=singa-accueil</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=outil_main</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=outil-main</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=api_bus</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=api-bus</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=point_ecoute</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=point-ecoute</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=jardin_age</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=jardin-age</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=aptimots_librairie</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=aptimots-librairie</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=vitarue_festival</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=vitarue-festival</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=digital_seniors</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=digital-seniors</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=collectif_travailleurs</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=collectif-travailleurs</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=petites_cantines</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=petites-cantines</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=villa_sabrina</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=villa-sabrina</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=voisinage_conciergerie</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=voisinage-conciergerie</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison_thil</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=maison-thil</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=arche_maison</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=arche-maison</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -4366,7 +4366,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=joue_ensemble</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=joue-ensemble</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -4380,35 +4380,35 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=village_bouchaud</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=village-bouchaud</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=restaurant_hopital</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=restaurant-hopital</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=restauration_bio</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=restauration-bio</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=envie_autonomie</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=envie-autonomie</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=relais_parentaux</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=relais-parentaux</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -4422,14 +4422,14 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=equipes_pluridisciplinaires</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=equipes-pluridisciplinaires</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=conseil_quartier</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=conseil-quartier</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
@@ -4443,7 +4443,7 @@
    </url>
 
    <url>
-      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ess_ecole</loc>
+      <loc>https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&amp;id=ess-ecole</loc>
       <lastmod>2024-02-20</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>

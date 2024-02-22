@@ -206,13 +206,9 @@ function adjustAndSortVignettesData(selectedInsee) {
 
   // Fonction pour afficher les détails d'une vignette
   function displayDetails(id) {
-    const details = vignettesData.find(item => item.MOTCLES === id);
+    const details = vignettesData.find(item => item.detailsId === id);
     document.title = "Plateforme Bonnes Pratiques - " + details.INTITULE;
     document.querySelector('meta[name="description"]').setAttribute("content", details.DESCRIPTION1);
-
-    // Ajouter/modifier les balises Open Graph si nécessaire
-    document.querySelector('meta[property="og:title"]').setAttribute("content", "Plateforme Bonnes Pratiques - " + details.INTITULE);
-    document.querySelector('meta[property="og:description"]').setAttribute("content", details.DESCRIPTION1);
 
     const detailsContainer = $('#details-container');
     if (!details) {
@@ -372,8 +368,8 @@ function adjustAndSortVignettesData(selectedInsee) {
             </div>
           </div>
         `).on('click', () => {
-          displayDetails(item.MOTCLES);
-          const newUrl = `?page=decouvrir&id=${item.MOTCLES}`;
+          displayDetails(item.detailsId);
+          const newUrl = `?page=decouvrir&id=${item.detailsId}`;
           window.history.pushState({ path: newUrl }, '', newUrl);
           handleNavigation();
         });
