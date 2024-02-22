@@ -222,7 +222,7 @@ a.nav-link {
     display: block;
   }
 
-  h1, h2, h3 {
+  h1, h2 {
     color: rgb(0, 117, 59);
     font-weight: bold;
     text-align: center;
@@ -428,7 +428,7 @@ h2.BP_title {
     text-align: left;
 }
 
-#details-container h4 {
+#details-container h3 {
     margin: 16px;
 }
 

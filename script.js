@@ -167,15 +167,6 @@ function adjustAndSortVignettesData(selectedInsee) {
   // Variables globales pour stocker les données
   let vignettesData = [];
 
-  function handleNavigation() {
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const page = urlParams.get('page') || 'accueil'; // Fallback sur 'accueil' si aucun paramètre n'est donné
-
-    // Logique pour activer la section correspondante
-    activateSectionAndLink(page);
-}
-
   // Fonction pour activer la section et le lien correspondants
   function activateSectionAndLink(page) {
     // Désactiver tous les liens et sections actifs
@@ -229,7 +220,7 @@ function adjustAndSortVignettesData(selectedInsee) {
       <div class="close-btn">✖ Fermer</div>
       <div class="BP_page_background"></div>
       <h2>${details.INTITULE} - ${details.TER} (${details.DEP_NOM})</h2>
-      <h4>${details.PAYS} | ${details.TER} (${parseInt(details.POP).toLocaleString()} hab.) | ${details.ANNEE} </h4>
+      <h3>${details.PAYS} | ${details.TER} (${parseInt(details.POP).toLocaleString()} hab.) | ${details.ANNEE} </h3>
       <div class="BP_page_content">
       <div class="BP_page_imgdownload">
       <img src="www/webpv/${details.WEBP}" class="BP_page_img" alt="${details.INTITULE}" loading="lazy"/>
