@@ -219,8 +219,8 @@ function adjustAndSortVignettesData(selectedInsee) {
     var detailsMarkup = `
       <div class="close-btn">✖ Fermer</div>
       <div class="BP_page_background"></div>
-      <h2 itemprop="about">${details.INTITULE} - ${details.TER} (${details.DEP_NOM})</h2>
-      <h3><span itemprop="location">${details.PAYS}</span> | <span itemprop="location">${details.TER}</span> (${parseInt(details.POP).toLocaleString()} hab.) | ${details.ANNEE} </h3>
+      <h2 itemprop="name">${details.INTITULE} - ${details.TER} (${details.DEP_NOM})</h2>
+      <h3><span itemprop="location">${details.PAYS}</span> | <span itemprop="location">${details.TER}</span> (${parseInt(details.POP).toLocaleString()} hab.) | <span itemprop="startDate">${details.ANNEE}</span> </h3>
       <div class="BP_page_content">
       <div class="BP_page_imgdownload">
       <img src="www/webpv/${details.WEBP}" class="BP_page_img" alt="${details.INTITULE}" loading="lazy"/>
