@@ -195,11 +195,37 @@ function adjustAndSortVignettesData(selectedInsee) {
     handleNavigation();
 });
 
-  // Fonction pour afficher les détails d'une vignette
+
+function setMetaProperty(property, content) {
+  let head = document.getElementsByTagName('head')[0];
+  let meta = document.createElement('meta');
+  meta.setAttribute('property', property);
+  meta.setAttribute('content', content);
+  head.appendChild(meta);
+}
+
+function removeMetaProperty(property) {
+  let head = document.getElementsByTagName('head')[0];
+  let metas = document.querySelectorAll(`meta[property='${property}']`);
+  metas.forEach(meta => {
+    head.removeChild(meta);
+  });
+}
+
   function displayDetails(id) {
     const details = vignettesData.find(item => item.detailsId === id);
+    removeMetaProperty('og:title');
+    removeMetaProperty('og:type');
+    removeMetaProperty('og:image');
+    removeMetaProperty('og:url');
+    removeMetaProperty('og:description');
     document.title = "Plateforme Bonnes Pratiques - " + details.INTITULE;
     document.querySelector('meta[name="description"]').setAttribute("content", details.DESCRIPTION1);
+    setMetaProperty('og:title', `${details.INTITULE}`);
+    setMetaProperty('og:type', 'article');
+    setMetaProperty('og:image', `${details.WEBP}`);
+    setMetaProperty('og:url', 'https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&id=' + `${details.detailsId}`);
+    setMetaProperty('og:description', `${details.DESCRIPTION1}`);
 
     const detailsContainer = $('#details-container');
     if (!details) {
