@@ -233,9 +233,9 @@ function adjustAndSortVignettesData(selectedInsee) {
       </span>
       <div class="BP_page_graphref">
       <span class="BP_page_ref">
-      <h5>Portée par </h5>
+      <h4>Portée par </h4>
       <p>${details.CREDIT}</p>
-      <h5>Contact</h5>
+      <h4>Contact</h4>
       <p>${details.CONTACT}</p>
       <a href="${details.LINK}">${details.LINK}</a>
       </span>
