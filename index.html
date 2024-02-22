@@ -24,6 +24,17 @@
 
     gtag('config', 'G-0LQ7GD27TM');
     </script>
+    <script>
+      $.ajax({
+        url: 'https://service.prerender.io/https://bonnes-pratiques.ithea-conseil.fr.',
+        crossDomain: true,
+        headers: {
+          'X-Prerender-Token': 'Bi8scAHaTl2HoqCkpNP6'
+        }
+      }).done(function(response) {
+        console.log(response);
+      });
+    </script>
 </head>
 <body>
     <div class="container">
@@ -31,13 +42,13 @@
             <a href="?page=accueil"> <img src="www/logo.webp" alt ="logo" loading="lazy"></a>
             <a href="?page=accueil"> <img src="www/logo_crop.webp" alt ="logo" loading="lazy"></a>
             <ul class="nav-menu">
-                <li class="nav-item"><a href="?page=accueil" class="nav-link active"><i class="fas fa-solid fa-house"></i><span class="nav-text">Accueil</span></a></li>
+                <li class="nav-item"><a href="?page=accueil" class="nav-link"><i class="fas fa-solid fa-house"></i><span class="nav-text">Accueil</span></a></li>
                 <li class="nav-item"><a href="?page=thematiques" class="nav-link"><i class="fas fa-solid fa-book"></i><span class="nav-text">Thématiques</span></a></li>
                 <li class="nav-item"><a href="?page=decouvrir" class="nav-link"><i class="fas fa-solid fa-compass"></i><span class="nav-text">Tout découvrir</span></a></li>
             </ul>
         </nav>
         <main class="main-content">
-            <div id="accueil" class="main-section active">
+            <div id="accueil" class="main-section">
                 <!-- Contenu pour Accueil -->
                 <h1 class="titreBP">BIBLIOTHÈQUE DE BONNES PRATIQUES</h1>
                 <div class="green_div_column">
