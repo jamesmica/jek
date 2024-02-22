@@ -219,14 +219,14 @@ function adjustAndSortVignettesData(selectedInsee) {
     var detailsMarkup = `
       <div class="close-btn">✖ Fermer</div>
       <div class="BP_page_background"></div>
-      <h2>${details.INTITULE} - ${details.TER} (${details.DEP_NOM})</h2>
-      <h3>${details.PAYS} | ${details.TER} (${parseInt(details.POP).toLocaleString()} hab.) | ${details.ANNEE} </h3>
+      <h2 itemprop="about">${details.INTITULE} - ${details.TER} (${details.DEP_NOM})</h2>
+      <h3><span itemprop="location">${details.PAYS}</span> | <span itemprop="location">${details.TER}</span> (${parseInt(details.POP).toLocaleString()} hab.) | ${details.ANNEE} </h3>
       <div class="BP_page_content">
       <div class="BP_page_imgdownload">
       <img src="www/webpv/${details.WEBP}" class="BP_page_img" alt="${details.INTITULE}" loading="lazy"/>
       <a href="www/pdf/Bonnes Pratiques_Partie${details.N}.pdf" download="${details.INTITULE}">Télécharger en PDF<i class="fa-solid fa-download"></i></a>
       </div>
-      <span class="BP_page_description">
+      <span itemprop="about" class="BP_page_description">
       <p>${details.DESCRIPTION1}</p>
       <p>${details.DESCRIPTION2}</p>
       <p>${details.DESCRIPTION3}</p>
