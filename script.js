@@ -178,6 +178,32 @@ function adjustAndSortVignettesData(selectedInsee) {
 
     // Activer la section correspondante
     $('#' + page).addClass('active');
+
+    if (page==='thematiques') {
+      removeMetaProperty('og:title');
+      removeMetaProperty('og:type');
+      removeMetaProperty('og:image');
+      removeMetaProperty('og:url');
+      removeMetaProperty('og:description');
+      document.title = "Plateforme Bonnes Pratiques - " + "Thématiques";
+      document.querySelector('meta[name="description"]').setAttribute("content", "Explorez librement notre bibliothèque à travers des thématiques sélectionnées et accédez rapidement aux bonnes pratiques pertinentes.");
+      setMetaProperty('og:title', "Plateforme Bonnes Pratiques - Thématiques");
+      setMetaProperty('og:type', 'website');
+      setMetaProperty('og:url', 'https://bonnes-pratiques.ithea-conseil.fr/?page=thematiques');
+      setMetaProperty('og:description', "Explorez librement notre bibliothèque à travers des thématiques sélectionnées et accédez rapidement aux bonnes pratiques pertinentes.");
+    } else if (page==='accueil') {
+      removeMetaProperty('og:title');
+      removeMetaProperty('og:type');
+      removeMetaProperty('og:image');
+      removeMetaProperty('og:url');
+      removeMetaProperty('og:description');
+      document.title = "Plateforme Bonnes Pratiques";
+      document.querySelector('meta[name="description"]').setAttribute("content", "Aider les collectivités territoriales à orienter leurs politiques publiques à travers un répertoire complet de bonnes pratiques en France et en UE.");
+      setMetaProperty('og:title', "Plateforme Bonnes Pratiques");
+      setMetaProperty('og:type', 'website');
+      setMetaProperty('og:url', 'https://bonnes-pratiques.ithea-conseil.fr/?page=accueil');
+      setMetaProperty('og:description', "Aider les collectivités territoriales à orienter leurs politiques publiques à travers un répertoire complet de bonnes pratiques en France et en UE.");
+    }
 }
 
 
@@ -475,6 +501,21 @@ function handleNavigation() {
             // Affiche les détails pour un ID spécifique
             displayDetails(id);
         }
+
+    if (page === 'decouvrir' && !id) {
+      removeMetaProperty('og:title');
+      removeMetaProperty('og:type');
+      removeMetaProperty('og:image');
+      removeMetaProperty('og:url');
+      removeMetaProperty('og:description');
+      document.title = "Plateforme Bonnes Pratiques - " + "Découvrir";
+      document.querySelector('meta[name="description"]').setAttribute("content", "Explorez + de 700 bonnes pratiques poussées par les collectivités territoriales en France et en UE. Filtrez et recherchez par thématique, territoire ou strate de population.");
+      setMetaProperty('og:title', "Plateforme Bonnes Pratiques - Découvrir");
+      setMetaProperty('og:type', 'website');
+      setMetaProperty('og:image', "https://bonnes-pratiques.ithea-conseil.fr/decouvrir.jpg");
+      setMetaProperty('og:url', 'https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir');
+      setMetaProperty('og:description', "Explorez + de 700 bonnes pratiques poussées par les collectivités territoriales en France et en UE. Filtrez et recherchez par thématique, territoire ou strate de population.");
+    }
 
     }
     // Ajoutez ici d'autres conditions pour d'autres valeurs de 'page' si nécessaire
