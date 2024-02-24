@@ -289,7 +289,7 @@ function removeMetaProperty(property) {
       <p>${details.CREDIT}</p>
       <h4>Contact</h4>
       <p>${details.CONTACT}</p>
-      <a href="${details.LINK}">${details.LINK}</a>
+      <a href="${details.LINK}">Voir la bonne pratique (lien externe)</a>
       </span>
       <div id="div_myChart" style="width: 360px; height: 200px;">
       <canvas id="myChart" width="360" height="200"></canvas>

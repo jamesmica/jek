@@ -802,24 +802,69 @@ button#load-more-btn:hover {
 
 
 
-@media screen and (max-width: 884px) {
+@media screen and (max-width: 1045px) {
 
     h1.titreBP {
         height: 40px;
         margin: 8px;
     }
 
-.sidebar {
-   width: 80px !important;
-} 
-	
-   .vignette {
-	   width: 200px;
-	   margin-right: 16px;
-   }
+    .sidebar {
+    width: 64px !important;
+    } 
+
+    #vignettes-container {
+        display: flex;
+        height: calc(100vh - 136px);
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 0;
+        justify-content: center;
+        background-color: #E5EFD1;
+        width: calc(100vw - 64px);
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+        
+    .vignette {
+        margin: 0;
+        cursor: pointer;
+        margin-left: 0;
+        margin-right: 0;
+        transform: scale(0.9);
+    }
+
+    img[src="www/logo.webp"], img[src="www/logo_crop.webp"] {
+        margin-bottom: 80px;
+        height: 64px;
+        margin-top: -8px;
+        width: auto;
+        margin-left: 6px;
+    }
+
+    .sidebar li a>i {
+        transform: scale(1.4);
+        margin: 10px 0px 0px -4px;
+        height: 32px;
+        padding: 2px 0px 0px 6px !important;
+    }
+
+    .nav-link.active {
+        background-color: white;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 16px;
+        color: black;
+        width: 21px !important;
+        height: 33px !important;
+    }
 
     #thematiques h1.titreBP, #accueil h1.titreBP {
         margin-bottom: 48px;
+    }
+
+    #thematiques {
+        padding-left: 64px;
+        text-align: center;
     }
 
     #accueil_prem h2 {
@@ -931,11 +976,11 @@ button#load-more-btn:hover {
         font-size: 3vw;
     }
 
-    #thematiques div.green_div_column, #decouvrir div.green_div_column {
+    #thematiques div.green_div_column, #accueil div.green_div_column, #decouvrir div.green_div_column {
         margin: auto;
         text-align: center;
         background-color: #E5EFD1;
-        width: calc(100vw - 80px);
+        width: calc(100vw - 64px);
         height: 80vh;
         display: flex;
         flex-direction: column;
@@ -946,6 +991,11 @@ button#load-more-btn:hover {
         overflow-y: scroll;
         justify-content: space-around;
         height: auto;
+        padding-bottom: 48px;
+    }
+
+    div#decouvrir {
+        margin-left: 64px;
     }
 
     #decouvrir .selectize-control {
@@ -955,18 +1005,21 @@ button#load-more-btn:hover {
     input#search-input {
         height: 32px;
         margin-top: 16px;
-        min-width: 200px;
+        min-width: 20px;
         border-radius: 4px;
         font-family: 'Calibri', 'Arial', 'Roboto', sans-serif;
         cursor: auto;
+        width: 148px !important;
+        max-width: 148px;
         margin-left: 0;
+        font-size: 10px;
     }
 
     h1.titreBP {
         height: 64px;
         margin: 8px;
         font-size: 22px;
-        width: calc(100vw - 96px);
+        width: calc(100vw - 80px);
     }
 
     .BP_page_content {
@@ -1078,14 +1131,69 @@ button#load-more-btn:hover {
         margin-right: 8px;
         cursor: pointer !important;
         font-weight: bold;
+        font-size: 10px;
+        margin-left: 8px;
     }
 
     #details-container p {
         margin-top: 0px;
-        margin-left: 0;
-        width: 344px;
-        margin-left: 8px;
+        max-width: calc(100vw);
+        padding: 16px;
     }
+
+    .details-link {
+        width: 224px;
+        text-align: center;
+        height: 440px;
+        background-color: white;
+        overflow: hidden;
+        display: block;
+        border-radius: 2px;
+    }
+
+    div#accueil {
+        margin-left: 64px;
+        width: calc(100vw - 64px);
+    }
+
+    .accueil_text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: calc(100vw - 64px);
+    }
+
+    #details-container .close-btn {
+        position: sticky;
+        top: 8px;
+        cursor: pointer;
+        width: 80px;
+        margin-left: auto;
+        height: 32px;
+    }
+
+    #div_myChart {
+        width: 304px !important;
+        height: 200px;
+        margin-top: 32px;
+        margin: auto;
+    }
+
+    .BP_page_ref {
+        text-align: justify;
+        background-color: #E6E6E6;
+        padding: 8px;
+        width: calc(100vw - 80px);
+        margin: auto;
+    }
+
+    .BP_page_ref a {
+        padding: 16px;
+        text-wrap: nowrap;
+        font-size: 12px;
+    }
+
+
 
 
 }
