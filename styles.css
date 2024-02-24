@@ -815,6 +815,7 @@ button#load-more-btn:hover {
 	
    .vignette {
 	   width: 200px;
+	   margin-right: 16px;
    }
 
     #thematiques h1.titreBP, #accueil h1.titreBP {
