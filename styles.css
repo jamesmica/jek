@@ -1175,7 +1175,7 @@ button#load-more-btn:hover {
     #div_myChart {
         width: 304px !important;
         height: 200px;
-        margin-top: 32px;
+        margin-top: 32px !important;
         margin: auto;
     }
 
