@@ -381,6 +381,7 @@ function removeMetaProperty(property) {
               <div class="BP_text">
                 <h2 class="BP_title">${item.INTITULE} - ${item.TER} (${item.DEP_NOM})</h2>
                 <p class="BP_caption">${item.DESCRIPTION1}</p>
+                <a href="https://bonnes-pratiques.ithea-conseil.fr/?page=decouvrir&id=${item.detailsId}">${item.detailsId}</a>
               </div>
             </div>
           </div>

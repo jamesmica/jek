@@ -309,6 +309,12 @@ h1.titreBP {
     cursor: pointer;
 }
 
+.vignette a {
+    color: transparent;
+    z-index: -1;
+    position: relative;
+}
+
 .BP_caption {
     color: #969995;
     font-size: 12px;
