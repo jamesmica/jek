@@ -809,6 +809,14 @@ button#load-more-btn:hover {
         margin: 8px;
     }
 
+.sidebar {
+   width: 80px !important;
+} 
+	
+   .vignette {
+	   width: 200px;
+   }
+
     #thematiques h1.titreBP, #accueil h1.titreBP {
         margin-bottom: 48px;
     }
