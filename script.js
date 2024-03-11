@@ -238,8 +238,31 @@ function removeMetaProperty(property) {
   });
 }
 
+function updateCanonicalIfIdPresent() {
+  // Extraire l'URL actuelle et les paramètres de recherche (query string)
+  const currentUrl = new URL(window.location.href);
+  const searchParams = currentUrl.searchParams;
+
+  // Vérifier si le paramètre 'id' est présent
+  if (searchParams.has('id')) {
+    // Trouver ou créer la balise <link rel="canonical">
+    let canonicalLink = document.querySelector("link[rel='canonical']");
+    if (!canonicalLink) {
+      canonicalLink = document.createElement("link");
+      canonicalLink.setAttribute("rel", "canonical");
+      document.head.appendChild(canonicalLink);
+    }
+
+    // Mettre à jour l'attribut 'href' de la balise avec l'URL actuelle
+    canonicalLink.setAttribute("href", currentUrl.href);
+  }
+}
+
+
   function displayDetails(id) {
     const details = vignettesData.find(item => item.detailsId === id);
+    // Appeler la fonction pour mettre à jour la balise canonical
+    updateCanonicalIfIdPresent();
     removeMetaProperty('og:title');
     removeMetaProperty('og:type');
     removeMetaProperty('og:image');
