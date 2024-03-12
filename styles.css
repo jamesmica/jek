@@ -800,6 +800,190 @@ button#load-more-btn:hover {
 	font-size: 12px;
 }
 
+i.fas.fa-circle-plus {
+    font-size: 48px;
+    color: #00753B;
+    border-radius: 64px;
+}
+
+div#addBP {
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    background: white;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 48px;
+    border: 0px solid #00753B;
+    display: flex;
+    /* margin-right: 64px; */
+    cursor: pointer;
+}
+
+#bpForm {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+    background-color: white;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    transform: translateX(100%);
+    transition: transform 0.3s;
+    z-index: 3;
+    overflow-y: auto; /* Permet le défilement vertical si nécessaire */
+    z-index: 1000; /* Assurez-vous qu'il est au-dessus des autres éléments */
+    padding: 20px; /* Ajoute un peu d'espace autour du contenu intérieur */
+    box-sizing: border-box; /* S'assure que le padding est inclus dans la largeur/hauteur */
+  }
+  #bpForm.addbpvisible {
+    transform: translateX(0);
+    }
+
+  #bpForm input[type="submit"] {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+  }
+
+.close-btn-addbp {
+    margin: 0;
+    margin-top: -8px !important;
+    margin-left: -10px;
+    cursor: pointer;
+}
+
+
+
+#addBP {
+    position: relative;
+    /* autres styles nécessaires pour #addBP */
+    z-index: 5;
+    transition: .3s opacity ease;
+  }
+  
+  #addBP:hover::after,
+  #addBP:hover::before {
+    content: '';
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 1001;
+  }
+  
+  #addBP:hover::after {
+    content: 'Je souhaite partager une Bonne Pratique de mon territoire';
+    top: -10px; /* Ajustez cette valeur pour changer la position verticale */
+    left: 50%;
+    transform: translateX(-50%) translateY(-100%) scale(0.9);
+    background-color: white;
+    padding: 10px;
+    border-radius: 25px; /* Cette valeur élevée crée l'effet de bulle ronde */
+    white-space: nowrap;
+    font-size: 0.8em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    visibility: visible;
+    opacity: 0.9;
+    font-size: 16px;
+  }
+  
+  #addBP:hover::before {
+    content: '';
+    top: 0; /* Alignement vertical de la flèche avec l'élément */
+    left: 50%;
+    border-width: 10px; /* Ajustez cette valeur pour changer la taille de la flèche */
+    border-style: solid;
+    border-color: white transparent transparent transparent;
+    transform: translateX(-50%) translateY(-100%) rotate(45deg);
+    visibility: visible;
+    opacity: 0.9;
+  }
+  
+  /* Effet de transition à l'apparition */
+  #addBP:hover::after,
+  #addBP:hover::before {
+    transform: translateX(-50%) translateY(-100%) scale(1);
+    opacity: 0.9;
+  }
+
+  #addBP:hover {
+    opacity: 0.9;  
+  }
+
+  #addBP:active {
+    background: #00753b;
+  }
+
+  #addBP:active i {
+    color: white;
+  }
+  
+  #addBP:hover::after, #addBP:hover::before {
+    transform: translateX(-50%) translateY(-100%) scale(1);
+    opacity: 0.9;
+    /* pointer-events: none; */
+    left: -48px;
+    max-width: 240px;
+    white-space: normal;
+    z-index: 5;
+    min-width: 160px;
+    padding: 16px;
+    font-weight: bold;
+}
+
+#bpForm label {
+    font-size: 12px;
+}
+
+#bpForm h4 {
+    color: #00753B;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form#bpForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#bpForm textarea {
+    min-height: 40px;
+}
+
+#bpForm input[type="submit"] {
+    position: relative;
+    /* bottom: 8px; */
+    /* right: 0px; */
+    background: #00753b;
+    color: white;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 4px;
+    margin: auto;
+    margin-left: 50%;
+    width: 120px;
+    height: 32px;
+    margin-top: 48px;
+}
+
+#bpForm input[type="submit"]:hover {
+    opacity: 0.9;
+    border-radius: 4px;
+}
+
+#bpForm input[type="submit"]:active {
+    background-color: white;
+    color: #00753B;
+    border: 1px solid #00753B;
+    border-radius: 4px;
+}
+  
+
 
 
 @media screen and (max-width: 1045px) {

@@ -199,6 +199,47 @@
             <div id="decouvrir" class="main-section">
                 <!-- Contenu pour Tout découvrir -->
                 <h1 class="titreBP">BIBLIOTHÈQUE DE BONNES PRATIQUES</h1>
+                <div id="addBP"><i class="fas fa-circle-plus"></i></div>
+              <script>
+                
+                function submitForm() {
+                  var formData = {
+                    nom: document.getElementById("nom").value,
+                    fonction: document.getElementById("fonction").value,
+                    email: document.getElementById("email").value,
+                    collectivite: document.getElementById("collectivite").value,
+                    miseEnPlace: document.getElementById("miseEnPlace").value,
+                    thematique: document.getElementById("thematique").value,
+                    description: document.getElementById("description").value,
+                    besoins: document.getElementById("besoins").value,
+                    replicabilite: document.getElementById("replicabilite").value,
+                    ressources: document.getElementById("ressources").value,
+                    contactNom: document.getElementById("contactNom").value,
+                    contactEmail: document.getElementById("contactEmail").value,
+                    infosSupplementaires: document.getElementById("infosSupplementaires").value
+                  };
+                
+                  var formDataAsString = JSON.stringify(formData);
+
+                  fetch('https://script.google.com/macros/s/AKfycbyz0ULyWk0-4huH3aoMxcSmnQGckwYBC0KV2WCn5do7uyTTtPH6MforqEl3gthEXHtcxA/exec', {
+                    method: 'POST',
+                    headers: {
+                      'Content-Type': 'text/plain' // Définir le type de contenu en texte brut
+                    },
+                    body: formDataAsString // Envoi des données sous forme de texte brut
+                  })
+                  .then(response => response.text()) // Traitement de la réponse en tant que texte
+                  .then(data => {
+                    console.log(data);
+                    alert("Nous avons bien reçu votre Bonne Pratique. Elle sera intégrée à la plateforme dans les prochaines semaines.");
+                  })
+                  .catch(error => console.error('Error:', error));
+                  
+                  return false; // Pour empêcher le rechargement de la page.
+                }
+
+
+              </script>
                 <div id="filters">
                         <button id="reset-button" onclick="resetFilters()" href="#">Réinitialiser</button>
                         <select id="produit-select" name="produit" multiple>
@@ -444,6 +485,70 @@
             </div>
         </main>
     </div>
+    <form id="bpForm" class="" onsubmit="return submitForm();">
+      <div class="form-header">
+          <div class="close-btn-addbp">✖ Fermer</div>
+          <h4>Je souhaite partager une Bonne Pratique</h4>
+      </div>
+      <h5>1. Vous êtes ...</h5>
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" size="50"><br>
+      <label for="fonction">Fonction :</label>
+      <input type="text" id="fonction" name="fonction" size="50"><br>
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" size="50"><br>
+      <h5>2. Quel est le nom de votre collectivité ?</h5>
+      <label for="collectivite">Collectivité :</label>
+      <input type="text" id="collectivite" name="collectivite" size="50"><br>
+      <h5>3. En quelle année cette Bonne Pratique a-t-elle été mise en place ?</h5>
+      <label for="miseEnPlace">Mise en place :</label>
+      <input type="number" id="miseEnPlace" name="miseEnPlace" size="50"><br>
+      <h5>4. Dans quelle thématique pourriez-vous la classer ? </h5>
+      <label for="thematique">Thématique :</label>
+      <select id="thematique" name="thematique">
+          <option value="Attractivité du territoire">Attractivité du territoire</option>
+          <option value="Jeunesse">Jeunesse</option>
+          <option value="Enfance & Education">Enfance & Education</option>
+          <option value="Mobilités">Mobilités</option>
+          <option value="Solidarités et action sociale">Solidarités et action sociale</option>
+          <option value="Sport, culture, loisirs">Sport, culture, loisirs</option>
+          <option value="Logement et Habitat">Logement et Habitat</option>
+          <option value="Vie de la collectivité">Vie de la collectivité</option>
+          <option value="Egalité Femmes-Hommes">Egalité Femmes-Hommes</option>
+          <option value="Santé et handicap">Santé et handicap</option>
+          <option value="Emploi et entreprises">Emploi et entreprises</option>
+          <option value="Vie locale">Vie locale</option>
+          <option value="Participation citoyenne">Participation citoyenne</option>
+          <option value="Environnement & Urbanisme">Environnement & Urbanisme</option>
+          <option value="Finances publiques">Finances publiques</option>
+      </select><br>
+      
+      <h5>5. Comment décrirez vous votre Bonne Pratique en 2/3 phrases ?</h5>
+      <label for="description">Description :</label>
+      <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
+      <h5>6. A quels besoins répond votre Bonne Pratique </h5>
+      <label for="besoins">Besoins :</label>
+      <textarea id="besoins" name="besoins" rows="4" cols="50"></textarea><br>
+      <h5>7. Votre Bonne Pratique est-elle facilement réplicable dans d'autres territoires ? Quelles sont les points de vigilance à avoir si on souhaite la mettre en œuvre ?</h5>
+      <label for="replicabilite">Replicabilité :</label>
+      <textarea id="replicabilite" name="replicabilite" rows="4" cols="50"></textarea><br>
+      <h5>8. Avez-vous bénéficié de ressources ou financements particuliers ? Si oui de la part de quelles acteurs/structures ? </h5>
+      <label for="ressources">Ressources :</label>
+      <textarea id="ressources" name="ressources" rows="4" cols="50"></textarea><br>
+      <h5>9. Qui doit-on contacter si on souhaite avoir plus de précisions concernant votre Bonne Pratique ? (NOM + contact mail)</h5>
+      <label for="contactNom">Nom du contact :</label>
+      <input type="text" id="contactNom" name="contactNom" size="50"><br>
+      <label for="contactEmail">Email du contact :</label>
+      <input type="email" id="contactEmail" name="contactEmail" size="50"><br>
+      <h5>10. Si vous avez d'autres infos à nous partager ...</h5>
+      <label for="infosSupplementaires">Infos Supplémentaires :</label>
+      <textarea id="infosSupplementaires" name="infosSupplementaires" rows="4" cols="50"></textarea><br>
+  
+            <div class="form-footer">
+              <input type="submit" value="Envoyer">
+          </div>
+      </form>
+  
     <script src="script.js"></script>
     <script src="script_thema.js"></script>
     <script>

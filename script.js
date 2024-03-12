@@ -585,5 +585,16 @@ function handleNavigation() {
     history.pushState({page: 'decouvrir'}, '', '?page=decouvrir');
     handleNavigation();
   });
+
+  document.getElementById('addBP').addEventListener('click',function() {
+    var addBP = document.getElementById('bpForm');
+    console.log(addBP);
+    addBP.classList.toggle("addbpvisible");
+  });
+
+  $('.close-btn-addbp').on('click', function () {
+    var container = document.getElementById('bpForm')
+    container.classList.toggle('addbpvisible');
+  });
     
 });
