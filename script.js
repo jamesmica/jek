@@ -268,7 +268,7 @@ function updateCanonicalIfIdPresent() {
     removeMetaProperty('og:image');
     removeMetaProperty('og:url');
     removeMetaProperty('og:description');
-    document.title = "Plateforme Bonnes Pratiques - " + details.INTITULE;
+    document.title = details.INTITULE;
     document.querySelector('meta[name="description"]').setAttribute("content", details.DESCRIPTION1);
     setMetaProperty('og:title', `${details.INTITULE}`);
     setMetaProperty('og:type', 'article');
