@@ -1059,12 +1059,42 @@ form#bpForm {
         height: 40px;
     }
 
+    #bpForm .form-section {
+        padding: 20px;
+        background-color: #fff;
+        min-width: 240px;
+        width: 400px;
+        margin: auto;
+
+    }
+    
+
+    #bpForm h5 {
+        white-space: normal;
+        margin-bottom: 0px;
+        margin-top: 32px;
+        font-size: 18px;
+    }
+
+    #bpForm .selectize-control.single > * {
+        font-size: 14px;
+    }
+
 @media screen and (max-width: 1045px) {
 
     h1.titreBP {
         height: 40px;
         margin: 8px;
     }
+
+    #bpForm .form-section {
+        padding: 20px;
+        background-color: #fff;
+        min-width: 240px;
+        width: 240px;
+        
+    }
+    
 
     .sidebar {
     width: 64px !important;

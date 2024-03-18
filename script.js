@@ -41,7 +41,7 @@ $(document).ready(function () {
 var selectize = $select[0].selectize;
 
 
-var selectize = $select2[0].selectize;
+var selectize2 = $select2[0].selectize;
 
 // Supposons que vous avez chargé toutes vos options ici au démarrage
 $.ajax({
@@ -62,6 +62,8 @@ function loadPertinenceData() {
         // Ajoutez toutes vos options à Selectize ici
         selectize.addOption(res); // Ajoute toutes les options au démarrage
         selectize.refreshOptions(); // Rafraîchit les options affichées
+        selectize2.addOption(res);
+        selectize2.refreshOptions();
     }
 });
 }
