@@ -881,7 +881,7 @@ div#addBP {
     font-size: 0.8em;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     visibility: visible;
-    opacity: 0.9;
+    opacity: 1;
     font-size: 16px;
   }
   
@@ -894,18 +894,18 @@ div#addBP {
     border-color: white transparent transparent transparent;
     transform: translateX(-50%) translateY(-100%) rotate(45deg);
     visibility: visible;
-    opacity: 0.9;
+    opacity: 1;
   }
   
   /* Effet de transition à l'apparition */
   #addBP:hover::after,
   #addBP:hover::before {
     transform: translateX(-50%) translateY(-100%) scale(1);
-    opacity: 0.9;
+    opacity: 1;
   }
 
   #addBP:hover {
-    opacity: 0.9;  
+    opacity: 1;  
   }
 
   #addBP:active {
@@ -918,7 +918,7 @@ div#addBP {
   
   #addBP:hover::after, #addBP:hover::before {
     transform: translateX(-50%) translateY(-100%) scale(1);
-    opacity: 0.9;
+    opacity: 1;
     /* pointer-events: none; */
     left: -48px;
     max-width: 240px;
