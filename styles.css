@@ -840,17 +840,14 @@ div#addBP {
     transform: translateX(0);
     }
 
-  #bpForm input[type="submit"] {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-  }
-
-.close-btn-addbp {
+  .close-btn-addbp {
     margin: 0;
     margin-top: -8px !important;
     margin-left: -10px;
     cursor: pointer;
+    position: fixed;
+    top: 64px;
+    left: 32px;
 }
 
 
@@ -954,9 +951,6 @@ form#bpForm {
 
 #bpForm input[type="submit"] {
     position: relative;
-    /* bottom: 8px; */
-    /* right: 0px; */
-    background: #00753b;
     color: white;
     outline: none;
     border: none;
@@ -964,11 +958,9 @@ form#bpForm {
     cursor: pointer;
     padding: 8px;
     border-radius: 4px;
-    margin: auto;
-    margin-left: 50%;
     width: 120px;
-    height: 32px;
-    margin-top: 48px;
+    height: 40px;
+    margin: 10px;
 }
 
 #bpForm input[type="submit"]:hover {
@@ -979,12 +971,93 @@ form#bpForm {
 #bpForm input[type="submit"]:active {
     background-color: white;
     color: #00753B;
-    border: 1px solid #00753B;
+    border: 1px solid #4CAF50;
     border-radius: 4px;
 }
+
+#bpForm progress {
+    width: 100%;
+    height: 20px;
+    background-color: #eee;
+  }
   
+  #bpForm progress::-webkit-progress-bar {
+    background-color: #eee;
+  }
+  
+  #bpForm progress::-webkit-progress-value {
+    background-color: #4CAF50;
+  }
+  
+  #bpForm progress::-moz-progress-bar {
+    background-color: #4CAF50;
+  }
+  
+  #bpForm .progress-container {
+    position: relative;
+    text-align: center;
+  }
+  
+  #bpForm .progress-percentage {
+    position: absolute;
+    width: 100%;
+    top: -20px; /* Adjust as necessary */
+    left: 0;
+    text-align: center;
+    font-size: 1em;
+    color: #4CAF50;
+  }
+  
+  #bpForm .form-navigation {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    position: relative; /* Use relative positioning */
+  }
+  
+  
+  #bpForm #prevBtn,
+  #bpForm #nextBtn,
+  #bpForm #submitButton {
+    padding: 10px 25px; /* Larger padding for larger buttons */
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none; /* Remove focus outline */
+  }
+  
+  #bpForm #prevBtn:hover,
+  #bpForm #nextBtn:hover,
+  #bpForm #submitButton:hover {
+    background-color: #367c39;
+  }
+  
+  #bpForm #prevBtn {
+    background-color: #ccc;
+  }
+  
+  #bpForm .form-section {
+    padding: 20px;
+    background-color: #fff;
+  }
 
+  #submitButton {
+    display: none;
+  }
 
+  button#nextBtn {
+    width: 104px;
+    height: 40px;
+    }
+
+    button#prevBtn {
+        width: 120px;
+        height: 40px;
+    }
 
 @media screen and (max-width: 1045px) {
 

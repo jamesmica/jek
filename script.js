@@ -11,6 +11,17 @@ $(document).ready(function () {
   $('#strate-select').selectize({
     onChange: filterVignettes
   });
+
+  var $select2 = $('#insee').selectize({
+    valueField: 'INSEE',
+    labelField: 'NOM_COUV',
+    searchField: 'NOM_COUV',
+    load: function(query, callback) {
+        if (!query.length) return callback();
+        // Supposons que vous avez déjà chargé vos données dans `selectize`
+        callback();
+    }
+});
   
   var $select = $('#insee-select').selectize({
     valueField: 'INSEE',
@@ -28,6 +39,9 @@ $(document).ready(function () {
 });
 
 var selectize = $select[0].selectize;
+
+
+var selectize = $select2[0].selectize;
 
 // Supposons que vous avez chargé toutes vos options ici au démarrage
 $.ajax({
