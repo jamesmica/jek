@@ -332,6 +332,17 @@ function updateCanonicalIfIdPresent() {
       </span>
       <div id="div_myChart" style="width: 360px; height: 200px;">
       <canvas id="myChart" width="360" height="200"></canvas>
+      <div class="info-icon"><img src="/www/info.png" alt="info-icon" style="height:24px;width:24px;"/>
+          <div class="tooltip">
+              Ces critères ont été choisis afin de pouvoir mieux se repérer entre les centaines de bonnes pratiques de notre base de données. Ils ont été définis par les différents rédacteurs des fiches Bonnes Pratiques à partir de nos propres indicateurs d’évaluations.<br><br><br>
+              <strong>Essaimable</strong>: Si la bonne pratique a une note élevée à ce critère, cela signifie que le projet est adapté à tout type de collectivité. A contrario, si la notation est moins élevée, cela peut vouloir dire que le projet est atypique et ne correspond qu’à une certaine typologie de collectivités (territoire littoral ? territoire très touristique ?).<br><br>
+              <strong>Économique</strong>: Si la bonne pratique coûte peu cher à mettre en œuvre et demande peu de moyens (moyens financiers, ressources humaines, etc.), alors la note est forcément élevée !<br><br>
+              <strong>Facile à organiser</strong>: Si la bonne pratique a une note élevée à ce critère, cela signifie que sa mise en œuvre ne demande que peu de préparation ou d’organisation.<br><br>
+              <strong>Innovant</strong>: Si la note au critère Innovant est élevée, cela veut dire que l’innovation sociale, écologique, économique est au cœur de la mise en œuvre de cette bonne pratique !<br><br>
+              <strong>Original</strong>: La bonne pratique aura une note élevée au critère d’originalité si elle est inédite et inspirante !<br><br>
+              <strong>Valorisable</strong>: Si la bonne pratique a une note élevée à ce critère, cela veut dire que le projet mis en œuvre nous semble très attractif : lorsqu’on lit le titre, on a tout de suite envie d’en savoir plus !
+          </div>
+      </div>
       </div>
       </div>
       </div>

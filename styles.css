@@ -1080,6 +1080,39 @@ form#bpForm {
         font-size: 14px;
     }
 
+    .info-icon {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+    .tooltip {
+        visibility: hidden;
+        width: 320px;
+        background-color: white;
+        color: black;
+        text-align: left;
+        border-radius: 6px;
+        padding: 16px;
+        position: absolute;
+        z-index: 1;
+        bottom: 120px;
+        right: 32px;
+        /* margin-left: -150px; */
+        opacity: 0;
+        border: 2px solid #00753B;
+        font-size: 12px;
+        transition: opacity 0.3s;
+    }
+    .info-icon:hover .tooltip {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    div#div_myChart {
+        display: flex;
+    }
+
 @media screen and (max-width: 1045px) {
 
     h1.titreBP {
