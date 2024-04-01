@@ -19,9 +19,13 @@ jobs:
           ruby-version: '3.2.3'
           bundler-cache: true # Automatically cache and install gems
 
+      - name: Setup platform for Bundler
+        run: bundle lock --add-platform x86_64-linux
+
+
       # Build and deploy the Jekyll site using the helaili/jekyll-action,
       # which handles the jekyll build and deploy steps.
       - name: Build and deploy Jekyll site
         uses: helaili/jekyll-action@2.0.4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.JEKYLL_PAT }}
