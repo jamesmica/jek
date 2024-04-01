@@ -9,26 +9,19 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
+      # Checkout the repository
       - uses: actions/checkout@v3
 
+      # Setup Ruby, specifying the version and enabling bundler cache.
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2.3'  # Utilisez la même version que sur votre machine locale
-          bundler-cache: true
+          ruby-version: '3.2.3'
+          bundler-cache: true # Automatically cache and install gems
 
-      - name: Use Ruby and Bundler version from Gemfile.lock
-        run: |
-          bundle config path vendor/bundle
-          bundle install --jobs 4 --retry 3
-        env:
-          BUNDLER_VERSION: 2.5.7
-
-
-      - name: Install Dependencies
-        run: bundle install
-
+      # Build and deploy the Jekyll site using the helaili/jekyll-action,
+      # which handles the jekyll build and deploy steps.
       - name: Build and deploy Jekyll site
         uses: helaili/jekyll-action@2.0.4
-        env:
-          JEKYLL_PAT: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
