@@ -14,7 +14,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'  # ou la version spécifique nécessaire pour votre projet
+          ruby-version: '3.2.3'  # ou la version spécifique nécessaire pour votre projet
 
       - name: Build and deploy Jekyll site
         uses: helaili/jekyll-action@2.0.4
