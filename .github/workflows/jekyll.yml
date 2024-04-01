@@ -15,9 +15,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.3'  # Utilisez la même version que sur votre machine locale
+          bundler-cache: true
 
-      - name: Install Bundler
-        run: gem install bundler -v 2.5.7
+      - name: Use Ruby and Bundler version from Gemfile.lock
+        run: |
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
         env:
           BUNDLER_VERSION: 2.5.7
 
