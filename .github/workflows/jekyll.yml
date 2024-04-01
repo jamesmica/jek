@@ -16,6 +16,10 @@ jobs:
         with:
           ruby-version: '3.2.3'  # Utilisez la même version que sur votre machine locale
 
+      - name: Install Bundler
+        run: gem install bundler -v 2.5.7
+
+
       - name: Install Dependencies
         run: bundle install
 
