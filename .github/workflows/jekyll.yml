@@ -9,12 +9,12 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'  # Spécifiez la version de Ruby que vous utilisez
+          ruby-version: '2.7'  # ou la version spécifique nécessaire pour votre projet
 
       - name: Build and deploy Jekyll site
         uses: helaili/jekyll-action@2.0.4
