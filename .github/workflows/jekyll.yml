@@ -18,6 +18,8 @@ jobs:
 
       - name: Install Bundler
         run: gem install bundler -v 2.5.7
+        env:
+          BUNDLER_VERSION: 2.5.7
 
 
       - name: Install Dependencies
