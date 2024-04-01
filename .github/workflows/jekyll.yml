@@ -28,4 +28,4 @@ jobs:
       - name: Build and deploy Jekyll site
         uses: helaili/jekyll-action@2.0.4
         env:
-          token: ${{ secrets.JEKYLL_PAT }}
+          JEKYLL_PAT: ${{ secrets.JEKYLL_PAT }}
